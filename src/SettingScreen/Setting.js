@@ -7,7 +7,7 @@ import {
   Card,
   CardItem,
   Body,
-  Content,List, ListItem,
+  Content,List, ListItem, Switch,
   Header,
   Left,
   Right,
@@ -24,70 +24,65 @@ export default class Setting extends React.Component {
   }
   render() {
     return (
-      <Container>
-        <Content padder>
-          <List>
-            <ListItem icon>
-                <Left>
-                  <Icon name="plane" />
-                </Left>
-                <Body>
-                  <Text>Thông tin của tôi</Text>
-                </Body>
-                <Right>
-                  <Icon name="arrow-forward" />
-                </Right>
-            </ListItem>
-            
-            <ListItem icon>
-                <Left>
-                  <Icon name="plane" />
-                </Left>
-                <Body>
-                  <Text>Ví của tôi</Text>
-                </Body>
-                <Right>
-                  <Icon name="arrow-forward" />
-                </Right>
-            </ListItem>
-            
-            <ListItem icon>
-                <Left>
-                  <Icon name="plane" />
-                </Left>
-                <Body>
-                  <Text>Lịch sử học tập</Text>
-                </Body>
-                <Right>
-                  <Icon name="arrow-forward" />
-                </Right>
-            </ListItem>
-
-            <ListItem icon>
-                <Left>
-                  <Icon name="plane" />
-                </Left>
-                <Body>
-                  <Text>Phụ huynh của tôi</Text>
-                </Body>
-                <Right>
-                  <Icon name="arrow-forward" />
-                </Right>
-            </ListItem>
-            <ListItem icon>
-                <Left>
-                  <Icon name="plane" />
-                </Left>
-                <Body>
-                  <Text>Giáo viên của tôi</Text>
-                </Body>
-                <Right>
-                  <Icon name="arrow-forward" />
-                </Right>
-            </ListItem>
-          </List>
-        </Content>
-      </Container>
+        <Container>
+            <Header />
+            <Content>
+                <List>
+                    <ListItem icon>
+                        <Left>
+                            <Icon name="plane" />
+                        </Left>
+                        <Body>
+                        <Text>Chia sẻ với bạn bè</Text>
+                        </Body>
+                    </ListItem>
+                    <ListItem icon>
+                        <Left>
+                            <Icon name="plane" />
+                        </Left>
+                        <Body>
+                        <Text>Push notification</Text>
+                        </Body>
+                        <Right>
+                            <Switch value={true} />
+                        </Right>
+                    </ListItem>
+                    <ListItem icon>
+                        <Left>
+                            <Icon name="plane" />
+                        </Left>
+                        <Body>
+                        <Text>FAQ</Text>
+                        </Body>
+                        <Right>
+                            <Icon name="arrow-forward" />
+                        </Right>
+                    </ListItem>
+                    <ListItem icon>
+                        <Left>
+                            <Icon name="information" />
+                        </Left>
+                        <Body>
+                        <Text>Về chúng tôi</Text>
+                        </Body>
+                        <Right>
+                            <Icon name="arrow-forward" />
+                        </Right>
+                    </ListItem>
+                    <ListItem icon>
+                        <Left>
+                            <Icon name="plane" />
+                        </Left>
+                        <Body>
+                        <Text>Cố vấn đồng hành</Text>
+                        </Body>
+                        <Right>
+                            <Icon name="arrow-forward" />
+                        </Right>
+                    </ListItem>
+                </List>
+            </Content>
+        </Container>
     );
   }
 }

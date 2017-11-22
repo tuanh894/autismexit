@@ -9,6 +9,7 @@ import {DrawerNavigator} from "react-navigation";
 import Semester from "../SemesterScreen/index.js";
 import HighSchool from "../HighSchoolScreen/index.js";
 import Setting from "../SettingScreen/index.js";
+import Login from "../LoginScreen/index.js";
 
 const HomeScreenRouter = DrawerNavigator(
     {
@@ -19,6 +20,7 @@ const HomeScreenRouter = DrawerNavigator(
         Rank: {screen: Rank},
         News: {screen: News},
         Profile: {screen: Profile},
+        Login: {screen: Login},
         Setting: {screen: Setting}
     },
     {

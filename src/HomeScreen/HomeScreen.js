@@ -34,31 +34,7 @@ export default class HomeScreen extends React.Component {
           <Right />
         </Header>
         <Content padder>
-          <Card>
-            <CardItem>
-              <Body>
-                <Text>Chưa thống nhất design</Text>
-              </Body>
-            </CardItem>
-          </Card>
-          <Button
-            full
-            rounded
-            dark
-            style={{ marginTop: 10 }}
-            onPress={() => this.props.navigation.navigate("Exam")}
-          >
-            <Text>Đề luyện tập</Text>
-          </Button>
-          <Button
-            full
-            rounded
-            primary
-            style={{ marginTop: 10 }}
-            onPress={() => this.props.navigation.navigate("Profile")}
-          >
-            <Text>Thông tin tài khoản</Text>
-          </Button>
+          <Text>Chưa thống nhất design</Text>
         </Content>
       </Container>
     );

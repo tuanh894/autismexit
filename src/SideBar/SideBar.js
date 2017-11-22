@@ -19,6 +19,7 @@ const routes = [
   ["News","Tin tức giáo dục"],
   ["Profile","Thông tin tài khoản"],
   ["Setting","Cài đặt"],
+  ["Login","Đăng nhập"],
   ["Logout","Thoát"]
 ];
 
