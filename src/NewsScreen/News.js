@@ -23,7 +23,7 @@ export default class News extends React.Component {
   render() {
     return (
       <Container>
-        <Tabs initialPage={1}>
+        <Tabs initialPage={2}>
           <Tab heading="Tin hệ thống">
             <TabSystem />
           </Tab>

@@ -1,7 +1,7 @@
 import React from "react";
-import {Container, Header, Content, List, ListItem, Text, Thumbnail , Body} from 'native-base';
+import {Container, Header, Content, List, ListItem, Text, Thumbnail, Body,FlatList,TouchableOpacity} from 'native-base';
 
-export default class TabEdu extends React.Component {
+export default class TabMost extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -12,7 +12,7 @@ export default class TabEdu extends React.Component {
 
 
     componentDidMount() {
-        return fetch('http://beta.luyentap.vn/frontend/web/api/v1/article/edu')
+        return fetch('http://beta.luyentap.vn/frontend/web/api/v1/rank/most?expand=profile')
             .then((response) => response.json())
             .then((responseJson) => {
                 this.setState({
@@ -34,14 +34,16 @@ export default class TabEdu extends React.Component {
                 <Content>
                     <List dataArray={this.state.items}
                           renderRow={(item) =>
-                              <ListItem>
-                                  <Thumbnail square large size={160} source={{uri: (item.absUrl)}}/>
-                                  <Body>
-                                  <Text>{item.title}</Text>
-                                  <Text note>{item.summary}</Text>
-                                  <Text note>{item.published_at}</Text>
-                                  </Body>
-                              </ListItem>
+
+                                  <ListItem>
+                                      <Thumbnail square large size={160} source={{uri: (item.absUrl)}}/>
+                                      <Body>
+                                      <Text>{item.profile.lastname} {item.profile.middlename} {item.profile.firstname}</Text>
+                                      <Text note>Tổng điểm: {item.score}</Text>
+                                      <Text note>Lượt làm đề: {item.count}</Text>
+                                      </Body>
+                                  </ListItem>
+
                           }>
                     </List>
                 </Content>

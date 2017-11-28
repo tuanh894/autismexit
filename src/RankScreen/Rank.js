@@ -3,6 +3,7 @@ import {AppRegistry, Alert} from "react-native";
 
 import {
     Text,
+    Tab, Tabs,
     Container,
     Card,
     CardItem,
@@ -16,70 +17,29 @@ import {
     Icon,
     Title,
     Button,
-    H1
+    H1,
 } from "native-base";
 import {StackNavigator} from "react-navigation";
-
+import TabMost from './TabMost';
+import TabAverage from './TabAverage';
+import TabReport from './TabReport';
+// import Detail from './Detail';
 export default class Rank extends React.Component {
     render() {
         return (
             <Container>
-                <Content>
-                    <List>
-                        <ListItem icon>
-                            <Left>
-                                <Icon name="person"/>
-                            </Left>
-                            <Body>
-                            <Text>Bùi Khánh Băng</Text>
-                            <Text>Lượt làm đề 669</Text>
-                            <Text>Tổng điểm 1969</Text>
-                            </Body>
-                            <Right>
-                                <Icon name="arrow-forward"/>
-                            </Right>
-                        </ListItem>
-                        <ListItem icon>
-                            <Left>
-                                <Icon name="person"/>
-                            </Left>
-                            <Body>
-                            <Text>Bùi Khánh Băng</Text>
-                            <Text>Lượt làm đề 669</Text>
-                            <Text>Tổng điểm 1969</Text>
-                            </Body>
-                            <Right>
-                                <Icon name="arrow-forward"/>
-                            </Right>
-                        </ListItem>
-                        <ListItem icon>
-                            <Left>
-                                <Icon name="person"/>
-                            </Left>
-                            <Body>
-                            <Text>Bùi Khánh Băng</Text>
-                            <Text>Lượt làm đề 669</Text>
-                            <Text>Tổng điểm 1969</Text>
-                            </Body>
-                            <Right>
-                                <Icon name="arrow-forward"/>
-                            </Right>
-                        </ListItem>
-                        <ListItem icon>
-                            <Left>
-                                <Icon name="person"/>
-                            </Left>
-                            <Body>
-                            <Text>Bùi Khánh Băng</Text>
-                            <Text>Lượt làm đề 669</Text>
-                            <Text>Tổng điểm 1969</Text>
-                            </Body>
-                            <Right>
-                                <Icon name="arrow-forward"/>
-                            </Right>
-                        </ListItem>
-                    </List>
-                </Content>
+                <Tabs >
+                    <Tab heading="Chuyên cần">
+                        <TabMost />
+                    </Tab>
+                    <Tab heading="Điểm trung bình">
+                        <TabAverage />
+                    </Tab>
+
+                    <Tab heading="Thống kê">
+                        <TabReport />
+                    </Tab>
+                </Tabs>
             </Container>
         );
     }
