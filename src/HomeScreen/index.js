@@ -10,8 +10,12 @@ import Semester from "../SemesterScreen/index.js";
 import HighSchool from "../HighSchoolScreen/index.js";
 import Setting from "../SettingScreen/index.js";
 import Login from "../LoginScreen/index.js";
-
-const HomeScreenRouter = DrawerNavigator(
+import ListScreen from "../ListScreen/index.js";
+import TabSystem from "../NewsScreen/TabSystem.js";
+import MainScreenNavigator from "../ChatScreen/index.js";
+import Detail from "../ChatScreen/Detail.js";
+import TabEdu from "../ListScreen/edu.js";
+const SideBarRouter = DrawerNavigator(
     {
         Home: {screen: HomeScreen},
         Exam: {screen: Exam},
@@ -20,11 +24,15 @@ const HomeScreenRouter = DrawerNavigator(
         Rank: {screen: Rank},
         News: {screen: News},
         Profile: {screen: Profile},
-        Login: {screen: Login},
+        Login: {screen: Login},Chat: { screen: MainScreenNavigator },
+        Detail: {screen: Detail},
+        ListScreen: {screen: ListScreen},
+        TabSystem: {screen: TabSystem},
+        TabEdu: {screen: TabEdu},
         Setting: {screen: Setting}
     },
     {
         contentComponent: props => <SideBar {...props} />
     }
 );
-export default HomeScreenRouter;
+export default SideBarRouter;
