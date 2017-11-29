@@ -17,13 +17,22 @@ import {
   H1
 } from "native-base";
 import { StackNavigator } from "react-navigation";
-import TabEdu from './TabEdu';
+import HomeScreen from "../HomeScreen";
+import TabEdu from './edu.js';
 import TabSystem from './TabSystem';
 export default class News extends React.Component {
+
+    constructor(props) {
+        super(props);
+        console.log("++++++++++++++++1 Tab education news...");
+        console.log(props);
+    }
+
   render() {
+    console.log(this.props);
     return (
       <Container>
-        <Tabs initialPage={2}>
+        <Tabs initialPage={1}>
           <Tab heading="Tin hệ thống">
             <TabSystem />
           </Tab>

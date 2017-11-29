@@ -1,8 +1,8 @@
 import React from "react";
 import {AppRegistry, Alert} from "react-native";
 
-import {Container, Header, Content, List, ListItem, Text, Thumbnail, Body} from 'native-base';
-
+import {Container, Header, Content, List, ListItem, Text, Thumbnail, Body,Spinner} from 'native-base';
+import HomeScreen from "../HomeScreen";
 export default class TabSystem extends React.Component {
     constructor(props) {
         super(props);
@@ -11,7 +11,6 @@ export default class TabSystem extends React.Component {
             items: []
         }
     }
-
 
     componentDidMount() {
         return fetch('http://beta.luyentap.vn/frontend/web/api/v1/article/system')
@@ -30,13 +29,17 @@ export default class TabSystem extends React.Component {
     }
 
     render() {
-
+        if(this.state.isLoading){
+            return (
+                <Spinner color='red' />
+            );
+        }
         return (
             <Container>
                 <Content>
                     <List dataArray={this.state.items}
                           renderRow={(item) =>
-                              <ListItem>
+                              <ListItem onPress={() => this.props.navigation.navigate("Detail")}>
                                   <Thumbnail square size={160} source={{uri: (item.absUrl)}}/>
                                   <Body>
                                   <Text>{item.title}</Text>
