@@ -1,16 +1,20 @@
 import React from "react";
 import {Container, Header, Content, List, ListItem, Text, Thumbnail, Body,Button,Left,Icon,Title,Right,Spinner} from 'native-base';
 import Detail from "./Detail.js";
-import News from "./News.js";
+import styles from "./style.js";
 
 export default class TabEdu extends React.Component {
+    static navigationOptions = ({navigation}) => ({
+        header: null
+    })
     constructor(props) {
         super(props);
         console.log("Tab education news...");
         console.log(props);
         this.state = {
             isLoading: true,
-            items: []
+            items: [],
+
         }
     }
 
@@ -30,19 +34,21 @@ export default class TabEdu extends React.Component {
             });
     }
 
+
     render() {
-       // const { navigate } = this.props.navigation;
         if(this.state.isLoading){
             return (
                 <Spinner color='red' />
             );
         }
+        const {navigate} = this.props.navigation;
+
         return (
-            <Container>
+            <Container style={styles.container}>
                 <Content>
                     <List dataArray={this.state.items}
                           renderRow={(item) =>
-                              <ListItem onPress={() => this.props.navigation.navigate("Detail")}>
+                              <ListItem onPress={() => navigate("Detail",{item})}>
                                   <Thumbnail square large size={160} source={{uri: (item.absUrl)}}/>
                                   <Body>
                                   <Text>{item.title}</Text>

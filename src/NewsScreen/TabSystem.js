@@ -1,9 +1,12 @@
 import React from "react";
-import {AppRegistry, Alert} from "react-native";
-
+import Detail from "./Detail.js";
 import {Container, Header, Content, List, ListItem, Text, Thumbnail, Body,Spinner} from 'native-base';
-import HomeScreen from "../HomeScreen";
+import styles from './style';
+
 export default class TabSystem extends React.Component {
+    static navigationOptions = ({navigation}) => ({
+        header: null
+    });
     constructor(props) {
         super(props);
         this.state = {
@@ -20,7 +23,6 @@ export default class TabSystem extends React.Component {
                     isLoading: false,
                     items: responseJson.items,
                 }, function () {
-                    // do something with new state
                 });
             })
             .catch((error) => {
@@ -28,18 +30,21 @@ export default class TabSystem extends React.Component {
             });
     }
 
+
     render() {
         if(this.state.isLoading){
             return (
                 <Spinner color='red' />
             );
         }
+        const {navigate} = this.props.navigation;
+
         return (
-            <Container>
+            <Container  style={styles.container}>
                 <Content>
                     <List dataArray={this.state.items}
                           renderRow={(item) =>
-                              <ListItem onPress={() => this.props.navigation.navigate("Detail")}>
+                              <ListItem onPress={() => navigate("Detail",{item})}>
                                   <Thumbnail square size={160} source={{uri: (item.absUrl)}}/>
                                   <Body>
                                   <Text>{item.title}</Text>

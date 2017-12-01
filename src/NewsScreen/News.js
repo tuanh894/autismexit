@@ -19,7 +19,7 @@ import {
 import { StackNavigator } from "react-navigation";
 import HomeScreen from "../HomeScreen";
 import TabEdu from './edu.js';
-import TabSystem from './TabSystem';
+import TabSystem from './system';
 export default class News extends React.Component {
 
     constructor(props) {

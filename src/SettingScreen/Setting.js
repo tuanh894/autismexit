@@ -26,7 +26,7 @@ export default class Setting extends React.Component {
     return (
         <Container>
             <Header />
-            <Content>
+            <Content style={{backgroundColor:'#fff'}}>
                 <List>
                     <ListItem icon>
                         <Left>
@@ -47,18 +47,18 @@ export default class Setting extends React.Component {
                             <Switch value={true} />
                         </Right>
                     </ListItem>
-                    <ListItem icon>
+                    <ListItem onPress={() => this.props.navigation.navigate('Guide')} icon>
                         <Left>
                             <Icon name="plane" />
                         </Left>
                         <Body>
-                        <Text>FAQ</Text>
+                        <Text >FAQ</Text>
                         </Body>
                         <Right>
                             <Icon name="arrow-forward" />
                         </Right>
                     </ListItem>
-                    <ListItem icon>
+                    <ListItem onPress={() => this.props.navigation.navigate('About')} icon>
                         <Left>
                             <Icon name="information" />
                         </Left>
@@ -69,7 +69,7 @@ export default class Setting extends React.Component {
                             <Icon name="arrow-forward" />
                         </Right>
                     </ListItem>
-                    <ListItem icon>
+                    <ListItem onPress={() => this.props.navigation.navigate('Adviser')} icon>
                         <Left>
                             <Icon name="plane" />
                         </Left>
