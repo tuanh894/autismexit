@@ -1,6 +1,7 @@
 import React from "react";
 import {Container, Header, Content, List, ListItem, Text, Thumbnail, Body} from 'native-base';
-
+import DetailProfile from './DetailProfile.js';
+import styles from './StylesDetail';
 export default class TabMost extends React.Component {
     constructor(props) {
         super(props);
@@ -8,6 +9,9 @@ export default class TabMost extends React.Component {
             isLoading: true,
             items: []
         }
+    }
+    static navigationOptions = {
+        header: null
     }
 
     componentDidMount() {
@@ -29,12 +33,13 @@ export default class TabMost extends React.Component {
     render() {
 
         return (
-            <Container>
+            <Container style={styles.container} >
                 <Content>
 
                     <List dataArray={this.state.items}
                           renderRow={(item) =>
-                              <ListItem>
+                              <ListItem
+                                  onPress={() => this.props.navigation.navigate("DetailProfile",{item})}>
                                   <Thumbnail square large size={160} source={{uri: (item.absUrl)}}/>
                                   <Body>
                                   <Text>{item.profile.lastname} {item.profile.middlename} {item.profile.firstname}</Text>

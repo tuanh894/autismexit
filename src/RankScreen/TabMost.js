@@ -1,14 +1,16 @@
 import React from "react";
-import {Container, Header, Content, List, ListItem, Text, Thumbnail, Body,FlatList,TouchableOpacity} from 'native-base';
-
+import {Container, Header, Content, List, ListItem, Text,Spinner , Thumbnail, Body,FlatList,TouchableOpacity,InputGroup,Icon,Input,Button} from 'native-base';
+import DetailProfile from './DetailProfile.js';
+import styles from './StylesDetail';
 export default class TabMost extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             isLoading: true,
-            items: []
+            items: [],
         }
     }
+
 
 
     componentDidMount() {
@@ -26,23 +28,33 @@ export default class TabMost extends React.Component {
                 console.error(error);
             });
     }
+    static navigationOptions = {
+        header: null
+    }
 
     render() {
 
+        if(this.state.isLoading){
+            return (
+                <Spinner color='red' />
+            );
+        }
+        const {navigate} = this. props.navigation;
         return (
-            <Container>
+            <Container style={styles.container}>
                 <Content>
                     <List dataArray={this.state.items}
                           renderRow={(item) =>
-
-                                  <ListItem>
-                                      <Thumbnail square large size={160} source={{uri: (item.absUrl)}}/>
-                                      <Body>
-                                      <Text>{item.profile.lastname} {item.profile.middlename} {item.profile.firstname}</Text>
-                                      <Text note>Tổng điểm: {item.score}</Text>
-                                      <Text note>Lượt làm đề: {item.count}</Text>
-                                      </Body>
-                                  </ListItem>
+                              <ListItem
+                                onPress={() => navigate("DetailProfile",{item})}
+                              >
+                                  <Thumbnail square large size={160} source={{uri: (item.absUrl)}}/>
+                                  <Body>
+                                  <Text>{item.profile.lastname} {item.profile.middlename} {item.profile.firstname}</Text>
+                                  <Text note>Tổng điểm: {item.score}</Text>
+                                  <Text note>Lượt làm đề: {item.count}</Text>
+                                  </Body>
+                              </ListItem>
 
                           }>
                     </List>

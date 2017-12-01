@@ -20,10 +20,10 @@ import {
     H1,
 } from "native-base";
 import {StackNavigator} from "react-navigation";
-import TabMost from './TabMost';
-import TabAverage from './TabAverage';
+import TabMost from './profile';
+import TabAverage from './ProfileAverage';
 import TabReport from './TabReport';
-// import Detail from './Detail';
+// import DetailProfile from './DetailProfile';
 export default class Rank extends React.Component {
     render() {
         return (

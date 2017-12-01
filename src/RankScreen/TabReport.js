@@ -1,6 +1,6 @@
 import React from "react";
 import {ActivityIndicator, FlatList,Text ,View} from "react-native";
-import {Container, Header, Content, List, ListItem, Thumbnail, Body} from 'native-base';
+import {Container, Header, Content, List, ListItem,Spinner, Thumbnail, Body} from 'native-base';
 
 export default class TabReport extends React.Component {
     constructor(props){
@@ -38,12 +38,7 @@ export default class TabReport extends React.Component {
 
 
     };
-    // handleRefresh = () =>{
-    //     this.setState({
-    //         page:1,
-    //         refreshing:true,
-    //     },() => {this.makeRemoteRequest();});
-    // };
+
     handleEnd = () =>{
         if(this.state.page < 4){
             this.setState({
@@ -54,6 +49,11 @@ export default class TabReport extends React.Component {
         }
     };
     render(){
+        if(this.state.isLoading){
+            return (
+                <Spinner color='red' />
+            );
+        }
         return (
 
             <List>

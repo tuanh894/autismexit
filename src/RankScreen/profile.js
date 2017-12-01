@@ -1,10 +1,11 @@
 import React, { Component } from "react";
-import Rank from "./Rank.js";
 import DetailProfile from "./DetailProfile";
 import TabMost from "./TabMost";
+// import TabAverage from "./TabAverage";
 import { StackNavigator } from "react-navigation";
-export default (DrawNav = StackNavigator({
-    Rank: { screen: Rank },
-    DetailProfile: { screen: DetailProfile },
+
+export default (NewsNav = StackNavigator({
     TabMost: { screen: TabMost },
+    // TabAverage: { screen: TabAverage },
+    DetailProfile: { screen: DetailProfile }
 }));
