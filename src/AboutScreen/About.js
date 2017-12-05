@@ -1,5 +1,5 @@
 import React from "react";
-
+import {View} from 'react-native';
 import {
     Text,
     Container,
@@ -40,13 +40,14 @@ export default class About extends React.Component {
     render(){
         return(
           <Container style={styles.container}>
-            <Content>
+            <Content >
+                <View style = {styles.hr}/>
                 <List
                     dataArray={this.state.items}
                     renderRow={(item) =>
 
-                        <ListItem >
-                            <Body>
+                        <ListItem style={styles.content}>
+                            <Body >
                                 <HTMLView value={item.body}/>
                             </Body>
                         </ListItem>

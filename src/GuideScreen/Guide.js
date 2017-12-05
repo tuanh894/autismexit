@@ -51,13 +51,13 @@ export default class Guide extends React.Component {
                 <Header style={styles.header}>
                     <H3 style={styles.h3}>Câu hỏi thường gặp</H3>
                 </Header>
-                <Content>
+                <Content style={styles.content}>
 
                     <List
                         dataArray={this.state.items}
                         renderRow={(item) =>
 
-                            <ListItem onPress={() => navigate("DetailGuide", { item})}>
+                            <ListItem onPress={() => navigate("DetailGuide", { item})} style={styles.item}>
                                 <Body>
                                     <Text>{item.title}</Text>
                                 </Body>

@@ -8,7 +8,8 @@ const styles = StyleSheet.create({
         width: 150,
         height: 150,
         borderRadius: 75,
-        flex: 1
+        flex: 1,
+        marginTop: 10,
     },
     text: {
         fontWeight: 'bold',

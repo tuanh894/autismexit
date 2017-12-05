@@ -17,7 +17,17 @@ import {StyleSheet} from 'react-native';
 
      },
      content: {
-       padding: 15
+       paddingTop: 5,
+     },
+     item: {
+       borderWidth: 1,
+         borderRadius: 10,
+         marginRight: 5,
+         marginLeft: 5,
+
+     },
+     detail: {
+       paddingLeft: 10,
      }
 
 });
