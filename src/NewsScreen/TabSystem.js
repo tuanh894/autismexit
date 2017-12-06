@@ -31,7 +31,7 @@ export default class TabSystem extends React.Component {
     render() {
         if(this.state.isLoading){
             return (
-                <Spinner color='red' />
+                <Spinner color='blue' />
             );
         }
         const {navigate} = this.props.navigation;
@@ -58,6 +58,7 @@ export default class TabSystem extends React.Component {
 }
 
 TabSystem.navigationOptions = ({ navigation }) => ({
+    title: 'Tin hệ thống',
     header: (
         <Header>
             <Left>

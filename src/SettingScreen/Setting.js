@@ -25,7 +25,6 @@ export default class Setting extends React.Component {
   render() {
     return (
         <Container>
-            <Header />
             <Content style={styles.content}>
                 <List>
                     <ListItem icon>

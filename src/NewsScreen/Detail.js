@@ -13,7 +13,8 @@ import { Body,
     Text,
     Title,
     List,
-    ListItem
+    ListItem,
+    Spinner
 } from 'native-base';
 import styles from './style';
 import HTMLView from 'react-native-htmlview';
@@ -65,6 +66,11 @@ export  default class Detail extends Component{
     });
     render() {
 
+        if(this.state.isLoading){
+            return (
+                <Spinner color='blue' />
+            );
+        }
         return(
             <Container style={styles.container}>
                 <Content style={styles.content}>

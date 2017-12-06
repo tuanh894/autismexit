@@ -35,7 +35,7 @@ export default class TabEdu extends React.Component {
     render() {
         if(this.state.isLoading){
             return (
-                <Spinner color='red' />
+                <Spinner color='blue' />
             );
         }
         const {navigate} = this.props.navigation;
@@ -63,6 +63,7 @@ export default class TabEdu extends React.Component {
 }
 
 TabEdu.navigationOptions = ({ navigation }) => ({
+    title: 'Tin giáo dục',
     header: (
         <Header>
             <Left>
