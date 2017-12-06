@@ -16,7 +16,7 @@ import {
   Button,
   H1
 } from "native-base";
-import { StackNavigator } from "react-navigation";
+import styles from "./style";
 
 export default class Setting extends React.Component {
   componentDidMount() {
@@ -26,11 +26,13 @@ export default class Setting extends React.Component {
     return (
         <Container>
             <Header />
-            <Content style={{backgroundColor:'#fff'}}>
+            <Content style={styles.content}>
                 <List>
                     <ListItem icon>
                         <Left>
-                            <Icon name="plane" />
+                            <Button style={styles.people}>
+                                <Icon name="ios-people" />
+                            </Button>
                         </Left>
                         <Body>
                         <Text>Chia sẻ với bạn bè</Text>
@@ -38,7 +40,9 @@ export default class Setting extends React.Component {
                     </ListItem>
                     <ListItem icon>
                         <Left>
-                            <Icon name="plane" />
+                            <Button style={styles.notification}>
+                                <Icon  name="notifications" />
+                            </Button>
                         </Left>
                         <Body>
                         <Text>Push notification</Text>
@@ -49,7 +53,9 @@ export default class Setting extends React.Component {
                     </ListItem>
                     <ListItem onPress={() => this.props.navigation.navigate('Guide')} icon>
                         <Left>
-                            <Icon name="plane" />
+                            <Button style={styles.faq}>
+                                <Icon  name="faqs" />
+                            </Button>
                         </Left>
                         <Body>
                         <Text >FAQ</Text>
@@ -60,7 +66,9 @@ export default class Setting extends React.Component {
                     </ListItem>
                     <ListItem onPress={() => this.props.navigation.navigate('About')} icon>
                         <Left>
-                            <Icon name="information" />
+                            <Button style={styles.information}>
+                                <Icon  name="information" />
+                            </Button>
                         </Left>
                         <Body>
                         <Text>Về chúng tôi</Text>
@@ -71,7 +79,10 @@ export default class Setting extends React.Component {
                     </ListItem>
                     <ListItem onPress={() => this.props.navigation.navigate('Adviser')} icon>
                         <Left>
-                            <Icon name="plane" />
+                            <Button style={styles.adviser}>
+                                <Icon name="call" />
+                            </Button>
+
                         </Left>
                         <Body>
                         <Text>Cố vấn đồng hành</Text>

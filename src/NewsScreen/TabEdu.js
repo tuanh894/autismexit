@@ -4,9 +4,6 @@ import Detail from "./Detail.js";
 import styles from "./style.js";
 
 export default class TabEdu extends React.Component {
-    static navigationOptions = ({navigation}) => ({
-        header: null
-    })
     constructor(props) {
         super(props);
         console.log("Tab education news...");
@@ -64,3 +61,19 @@ export default class TabEdu extends React.Component {
         );
     }
 }
+
+TabEdu.navigationOptions = ({ navigation }) => ({
+    header: (
+        <Header>
+            <Left>
+                <Button transparent onPress={() => navigation.navigate("DrawerOpen")}>
+                    <Icon name="menu" />
+                </Button>
+            </Left>
+            <Body>
+            <Title>Tin tức</Title>
+            </Body>
+            <Right />
+        </Header>
+    )
+});

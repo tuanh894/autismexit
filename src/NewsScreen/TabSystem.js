@@ -1,12 +1,9 @@
 import React from "react";
 import Detail from "./Detail.js";
-import {Container, Header, Content, List, ListItem, Text, Thumbnail, Body,Spinner} from 'native-base';
+import {Container, Header, Content, List, ListItem, Text, Thumbnail, Body,Button,Left,Icon,Title,Right,Spinner} from 'native-base';
 import styles from './style';
 
 export default class TabSystem extends React.Component {
-    static navigationOptions = ({navigation}) => ({
-        header: null
-    });
     constructor(props) {
         super(props);
         this.state = {
@@ -59,3 +56,19 @@ export default class TabSystem extends React.Component {
         );
     }
 }
+
+TabSystem.navigationOptions = ({ navigation }) => ({
+    header: (
+        <Header>
+            <Left>
+                <Button transparent onPress={() => navigation.navigate("DrawerOpen")}>
+                    <Icon name="menu" />
+                </Button>
+            </Left>
+            <Body>
+            <Title>Tin tức</Title>
+            </Body>
+            <Right />
+        </Header>
+    )
+});

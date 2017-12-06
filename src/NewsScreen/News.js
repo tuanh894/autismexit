@@ -16,10 +16,7 @@ import {
   Button,
   H1
 } from "native-base";
-import { StackNavigator } from "react-navigation";
-import HomeScreen from "../HomeScreen";
-import TabEdu from './edu.js';
-import TabSystem from './system';
+import DrawNav from './index';
 export default class News extends React.Component {
 
     constructor(props) {
@@ -31,31 +28,7 @@ export default class News extends React.Component {
   render() {
     console.log(this.props);
     return (
-      <Container>
-        <Tabs initialPage={1}>
-          <Tab heading="Tin hệ thống">
-            <TabSystem />
-          </Tab>
-          <Tab heading="Tin giáo dục">
-            <TabEdu />
-          </Tab>
-        </Tabs>
-      </Container>
+      <DrawNav/>
     );
   }
 }
-News.navigationOptions = ({ navigation }) => ({
-  header: (
-    <Header>
-      <Left>
-        <Button transparent onPress={() => navigation.navigate("DrawerOpen")}>
-          <Icon name="menu" />
-        </Button>
-      </Left>
-      <Body>
-        <Title>Tin tức</Title>
-      </Body>
-      <Right />
-    </Header>
-  )
-});

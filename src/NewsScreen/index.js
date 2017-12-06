@@ -1,11 +1,22 @@
 import React, { Component } from "react";
 import News from "./News.js";
-import TabSystem from "./system.js";
-import TabEdu from "./edu.js";
-import { StackNavigator } from "react-navigation";
+import TabEdu from "./TabEdu.js";
+import TabSystem from "./TabSystem.js";
+import Detail from "./Detail.js";
+import { StackNavigator, TabNavigator } from "react-navigation";
 
-export default (DrawNav = StackNavigator({
-    News: { screen: News },
-    TabEdu: { screen: TabEdu },
-    TabSystem: { screen: TabSystem }
-}));
+ const Tab = TabNavigator ({
+     TabSystem: {screen: TabSystem},
+     TabEdu: { screen: TabEdu}
+},
+     {
+         tabBarPosition: 'top',
+     });
+
+ const DrawNav = StackNavigator({
+     TabEdu: { screen: Tab },
+     Detail: { screen: Detail },
+});
+export default DrawNav;
+
+
