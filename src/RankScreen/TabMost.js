@@ -1,23 +1,33 @@
 import React from "react";
-import {Container, Header, Content, List, ListItem, Text,Spinner , Thumbnail, Body,FlatList,TouchableOpacity,InputGroup,Icon,Input,Button} from 'native-base';
+import {
+    Container, Header, Content, List, ListItem, Text,
+    Spinner, Thumbnail, Body, FlatList,
+    InputGroup, Icon, Input, Button, Item, Left, Right, Title, View
+}
+    from 'native-base';
+import {TouchableOpacity,} from 'react-native';
 import DetailProfile from './DetailProfile.js';
+import TabSearch from './TabSearch.js';
 import styles from './StylesDetail';
+
 export default class TabMost extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             isLoading: true,
             items: [],
+            text: "",
+            iconName: "ios-people"
         }
     }
-
-
-
+    //fetch data
     componentDidMount() {
         return fetch('http://beta.luyentap.vn/frontend/web/api/v1/rank/most?expand=profile')
+
             .then((response) => response.json())
             .then((responseJson) => {
                 this.setState({
+
                     isLoading: false,
                     items: responseJson.items,
                 }, function () {
@@ -28,34 +38,85 @@ export default class TabMost extends React.Component {
                 console.error(error);
             });
     }
+    //change icon
+    _handleChange(){
+        if(this.state.text){
+                this.setState({
+                    iconName:"ios-close"
+                })
+            }else{
+            this.setState({
+                iconName:"ios-people"
+            })
+
+            }
+    }
+
+    //off header
     static navigationOptions = {
         header: null
     }
 
+    //clear text
+    clearText(textSearch) {
+        this.refs['textSearch'].setNativeProps({text: ''});
+        this.setState({
+            text: '',
+            iconName:"ios-people"
+        })
+    }
+
     render() {
 
-        if(this.state.isLoading){
+        if (this.state.isLoading) {
             return (
-                <Spinner color='red' />
+                <Spinner color='#2B60AC'/>
             );
         }
-        const {navigate} = this. props.navigation;
+        const {navigate} = this.props.navigation;
         return (
+
             <Container style={styles.container}>
+                <Header searchBar rounded>
+
+                    <Item>
+                        <Icon name="ios-search"/>
+                        <Input placeholder="Tìm kiếm "
+                            // ref={ref => this.textInputRef = ref}
+                               ref={'textSearch'}
+                               value={this.state.search}
+                               onChangeText={(text => this.setState({text}))}
+                               onChange={()=>this._handleChange()}
+                        />
+                        <TouchableOpacity onPress={() => this.clearText()}
+                        >
+                            <Icon name={this.state.iconName}/>
+                        </TouchableOpacity>
+                    </Item>
+
+                        <Button transparent
+                                onPress={() => navigate("TabSearch", {search: this.state.text})}
+                        >
+                            <Text>Tìm kiếm</Text>
+                        </Button>
+
+                </Header>
                 <Content>
                     <List dataArray={this.state.items}
                           renderRow={(item) =>
                               <ListItem
-                                onPress={() => navigate("DetailProfile",{item})}
+                                  onPress={() => navigate("DetailProfile", {item})}
                               >
-                                  <Thumbnail square large size={160} source={{uri: (item.absUrl)}}/>
-                                  <Body>
+                                  <Thumbnail style={styles.image} source={{uri: (item.absUrl)}}/>
+                                  <Body style={styles.BodyRank}>
                                   <Text>{item.profile.lastname} {item.profile.middlename} {item.profile.firstname}</Text>
-                                  <Text note>Tổng điểm: {item.score}</Text>
-                                  <Text note>Lượt làm đề: {item.count}</Text>
-                                  </Body>
-                              </ListItem>
 
+                                  </Body>
+                                  <View style={styles.RightRank}>
+                                      <Text style={styles.points}>{item.count}</Text>
+                                      <Text note>Lượt làm đề</Text>
+                                  </View>
+                              </ListItem>
                           }>
                     </List>
                 </Content>
@@ -63,3 +124,19 @@ export default class TabMost extends React.Component {
         );
     }
 }
+TabMost.navigationOptions = ({navigation}) => ({
+    title: 'Chuyên cần',
+    header: (
+        <Header>
+            <Left>
+                <Button transparent onPress={() => navigation.navigate("DrawerOpen")}>
+                    <Icon name="menu"/>
+                </Button>
+            </Left>
+            <Body>
+            <Title>Bảng xếp hạng</Title>
+            </Body>
+            <Right/>
+        </Header>
+    )
+});

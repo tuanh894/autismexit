@@ -12,7 +12,8 @@ import { StackNavigator, TabNavigator } from "react-navigation";
          tabBarPosition: 'top',
          tabBarOptions: {
              labelStyle: {
-                 fontSize: 20,
+                 fontSize: 16,
+                 fontWeight:'bold'
              },
              tabStyle: {
                  paddingBottom:10,

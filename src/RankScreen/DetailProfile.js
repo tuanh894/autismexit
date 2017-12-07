@@ -25,6 +25,7 @@ export default class DetailProfile extends React.Component {
         this.state = {
             isLoading:true,
             school: [],
+
         }
     }
     componentDidMount(){
@@ -44,20 +45,50 @@ export default class DetailProfile extends React.Component {
 
 
     }
+    static navigationOptions = ({ navigation }) => ({
+        header: (
+            <Header>
+                <Left>
+                    <Button transparent onPress={() => navigation.goBack()}>
+                        <Icon name="arrow-back" />
+                    </Button>
+                </Left>
+                <Body>
+                <Title>Thông tin cá nhân</Title>
+                </Body>
+                <Right />
+            </Header>
 
+        )
+    });
     render(){
         const { params } = this.props.navigation.state;
         return(
-            <Container style={styles.container}>
+            <Container style={styles.background}>
                 <Content>
-                    <View>
+                    <View style={styles.wrapperDetail}>
                         <Thumbnail style={styles.image} source={{uri: (params.item.absUrl)}}/>
-                        <Text >Họ tên: {params.item.profile.lastname} {params.item.profile.middlename} {params.item.profile.firstname}</Text>
-                        <Text >Lớp: {params.item.profile.grade_id} </Text>
-                        <Text >Giới tính:  {params.item.profile.gender == '1' ? 'Nam' : 'Nữ' } </Text>
-                        <Text >Trường: {this.state.school.name}</Text>
-                        <Text >Địa chỉ: {params.item.profile.address} </Text>
                     </View>
+                        <Text style={styles.textInfo} ><Text style={styles.firstText}>Họ tên: </Text> <Text style={styles.textBold}>
+                                {params.item.profile.lastname} {params.item.profile.middlename} {params.item.profile.firstname}
+                            </Text>
+                        </Text>
+                        <Text style={styles.textInfo} ><Text style={styles.firstText}>Lớp:</Text> <Text style={styles.textBold}>
+                                {params.item.profile.grade_id}
+                            </Text>
+                        </Text>
+                        <Text style={styles.textInfo} ><Text style={styles.firstText}>Giới tính:</Text> <Text style={styles.textBold}>
+                                {params.item.profile.gender == '1' ? 'Nam' : 'Nữ' }
+                            </Text>
+                        </Text>
+                        <Text style={styles.textInfo} ><Text style={styles.firstText}>Trường:</Text> <Text style={styles.textBold}>
+                                {params.item.profile.school_id ? this.state.school.name :'Chưa cập nhật trường'}
+                            </Text>
+                        </Text>
+                        <Text style={styles.textInfo} ><Text style={styles.firstText}>Địa chỉ:</Text> <Text style={styles.textBold}>
+                                {params.item.profile.address}
+                            </Text>
+                        </Text>
                 </Content>
             </Container>
         )

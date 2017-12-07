@@ -53,7 +53,7 @@ export default class Setting extends React.Component {
                     <ListItem onPress={() => this.props.navigation.navigate('Guide')} icon>
                         <Left>
                             <Button style={styles.faq}>
-                                <Icon  name="faqs" />
+                                <Text>?</Text>
                             </Button>
                         </Left>
                         <Body>

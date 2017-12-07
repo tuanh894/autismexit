@@ -1,29 +1,36 @@
 import React from "react";
 import {Container, Header , Content, List, ListItem, Text,
     Spinner , Thumbnail, Body, FlatList, TouchableOpacity,
-    InputGroup, Icon, Input, Button, Item, Left, Right, Title} from 'native-base';
-import DetailProfile from './DetailProfile.js';
+    InputGroup, Icon, Input, Button, Item,View}
+    from 'native-base';
 import styles from './StylesDetail';
-export default class TabAverage extends React.Component {
+export default class TabSearch extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             isLoading: true,
-            items: []
-        }
+            items: [],
+        };
     }
-    // static navigationOptions = {
-    //     header: null
-    // }
 
     componentDidMount() {
-        return fetch('http://beta.luyentap.vn/frontend/web/api/v1/rank/index?expand=profile')
+        // ?key=${this.state.search}
+        // const { params } = this.props.navigation.state;
+        // alert(params.search);
+        const { params } = this.props.navigation.state;
+        return fetch(`http://beta.luyentap.vn/frontend/web/api/v1/rank/search?expand=profile&key=${params.search}`)
+
             .then((response) => response.json())
             .then((responseJson) => {
                 this.setState({
+
                     isLoading: false,
                     items: responseJson.items,
+
                 }, function () {
+                    // console.log('-----------------');
+                    // console.log(this.state.items);
+                    // console.log(params.search)
                     // do something with new state
                 });
             })
@@ -31,25 +38,33 @@ export default class TabAverage extends React.Component {
                 console.error(error);
             });
     }
-
+    static navigationOptions = {
+        title: 'Tìm kiếm thông tin'
+    }
     render() {
+
         if(this.state.isLoading){
             return (
                 <Spinner color='#2B60AC' />
             );
         }
+        const { params } = this.props.navigation.state;
+        const {navigate} = this. props.navigation;
         return (
-            <Container style={styles.container} >
+
+            <Container style={styles.container}>
                 <Content>
 
                     <List dataArray={this.state.items}
                           renderRow={(item) =>
                               <ListItem
-                                  onPress={() => this.props.navigation.navigate("DetailProfile",{item})}>
+                                  onPress={() => navigate("DetailProfile",{item})}
+                              >
                                   <Thumbnail style={styles.image} source={{uri: (item.absUrl)}}/>
                                   <Body>
-                                  <Text>{item.profile.lastname} {item.profile.middlename} {item.profile.firstname}</Text>
+                                  <Text>{item.fullname}</Text>
                                   <Text note>Tổng điểm: {item.score}</Text>
+                                  <Text note>User : {item.user_id}</Text>
                                   <Text note>Lượt làm đề: {item.count}</Text>
                                   </Body>
                               </ListItem>
@@ -60,20 +75,3 @@ export default class TabAverage extends React.Component {
         );
     }
 }
-
-TabAverage.navigationOptions = ({ navigation }) => ({
-    title: 'Điểm TB',
-    header: (
-        <Header>
-            <Left>
-                <Button transparent onPress={() => navigation.navigate("DrawerOpen")}>
-                    <Icon name="menu" />
-                </Button>
-            </Left>
-            <Body>
-            <Title>Bảng xếp hạng</Title>
-            </Body>
-            <Right />
-        </Header>
-    )
-});

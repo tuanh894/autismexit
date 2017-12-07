@@ -19,43 +19,19 @@ import {
     Button,
     H1,
 } from "native-base";
-import {StackNavigator} from "react-navigation";
-import TabMost from './profile';
-import TabAverage from './ProfileAverage';
-import TabReport from './TabReport';
-// import DetailProfile from './DetailProfile';
+import DrawNav from './index';
 export default class Rank extends React.Component {
-    render() {
-        return (
-            <Container>
-                <Tabs >
-                    <Tab heading="Chuyên cần">
-                        <TabMost />
-                    </Tab>
-                    <Tab heading="Điểm trung bình">
-                        <TabAverage />
-                    </Tab>
 
-                    <Tab heading="Thống kê">
-                        <TabReport />
-                    </Tab>
-                </Tabs>
-            </Container>
+    constructor(props) {
+        super(props);
+        console.log("++++++++++++++++1 Tab education news...");
+        console.log(props);
+    }
+
+    render() {
+        console.log(this.props);
+        return (
+            <DrawNav/>
         );
     }
 }
-Rank.navigationOptions = ({navigation}) => ({
-    header: (
-        <Header>
-            <Left>
-                <Button transparent onPress={() => navigation.navigate("DrawerOpen")}>
-                    <Icon name="menu"/>
-                </Button>
-            </Left>
-            <Body>
-            <Title>Bảng xếp hạng</Title>
-            </Body>
-            <Right/>
-        </Header>
-    )
-});
