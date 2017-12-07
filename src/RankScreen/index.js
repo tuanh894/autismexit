@@ -17,18 +17,14 @@ const Tab = TabNavigator ({
         tabBarOptions: {
             labelStyle: {
                 fontSize: 16,
-                fontWeight:'bold'
+                fontWeight:'bold',
+                color:'white'
             },
             tabStyle: {
-                paddingBottom:10,
+                paddingBottom:12,
             },
-        },
-        tabBarSelectedItemStyle: {
-            tabStyle:{
-
-                borderBottomWidth: 2,
-                borderBottomColor: 'red',
-            }
+            inactiveBackgroundColor :'#0078FF',
+            activeBackgroundColor:'#0051FF',
         },
     });
 

@@ -77,30 +77,41 @@ export default class TabMost extends React.Component {
         return (
 
             <Container style={styles.container}>
-                <Header searchBar rounded>
+                <Header style={styles.headerWrap} >
 
-                    <Item>
-                        <Icon name="ios-search"/>
-                        <Input placeholder="Tìm kiếm "
-                            // ref={ref => this.textInputRef = ref}
-                               ref={'textSearch'}
-                               value={this.state.search}
-                               onChangeText={(text => this.setState({text}))}
-                               onChange={()=>this._handleChange()}
-                        />
-                        <TouchableOpacity onPress={() => this.clearText()}
-                        >
-                            <Icon name={this.state.iconName}/>
-                        </TouchableOpacity>
-                    </Item>
+                    <View style={styles.itemWrap}>
 
-                        <Button transparent
-                                onPress={() => navigate("TabSearch", {search: this.state.text})}
-                        >
-                            <Text>Tìm kiếm</Text>
-                        </Button>
+                        <View style={styles.itemWrapSearch}>
+                            {/*<Item style={styles.itemSearch}>*/}
+                            <Icon name="ios-search"/>
 
+                            <Input style={styles.searchPlace} placeholder="Tìm kiếm "
+                                   ref={'textSearch'}
+                                   value={this.state.search}
+                                   onChangeText={(text => this.setState({text}))}
+                                   onChange={()=>this._handleChange()}
+                            />
+
+                            <TouchableOpacity onPress={() => this.clearText()}
+                            >
+                                <Icon style={styles.itemIcon} name={this.state.iconName}/>
+                            </TouchableOpacity>
+                            {/*</Item>*/}
+
+                        </View>
+
+                        <View style={styles.itemWrapButton}>
+
+                            <Button transparent style={styles.itemButtonSearch}
+                                    onPress={() => navigate("TabSearch", {search: this.state.text})}
+                            >
+                                <Text style={styles.itemButton}>Tìm kiếm</Text>
+                            </Button>
+
+                        </View>
+                    </View>
                 </Header>
+
                 <Content>
                     <List dataArray={this.state.items}
                           renderRow={(item) =>

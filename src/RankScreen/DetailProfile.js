@@ -67,7 +67,7 @@ export default class DetailProfile extends React.Component {
             <Container style={styles.background}>
                 <Content>
                     <View style={styles.wrapperDetail}>
-                        <Thumbnail style={styles.image} source={{uri: (params.item.absUrl)}}/>
+                        <Thumbnail style={styles.imageDetail} source={{uri: (params.item.absUrl)}}/>
                     </View>
                         <Text style={styles.textInfo} ><Text style={styles.firstText}>Họ tên: </Text> <Text style={styles.textBold}>
                                 {params.item.profile.lastname} {params.item.profile.middlename} {params.item.profile.firstname}
