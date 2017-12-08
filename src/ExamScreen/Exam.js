@@ -17,7 +17,7 @@ import {
     Title
 } from 'native-base';
 import {StackNavigator} from "react-navigation";
-
+import Take from "../TakeScreen/Take.js";
 export default class Exam extends React.Component {
     constructor(props) {
         super(props);
@@ -29,7 +29,7 @@ export default class Exam extends React.Component {
     }
 
     componentDidMount() {
-        return fetch('http://beta.luyentap.vn/frontend/web/api/v1/exam/week')
+        return fetch('http://beta.luyentap.vn/frontend/web/api/v1/exam/week?subject=1&class=12&week=10&key=')
             .then((response) => response.json())
             .then((responseJson) => {
                 this.setState({
@@ -44,22 +44,22 @@ export default class Exam extends React.Component {
                 //console.error(error);
                 this.setState({
                     isLoading: false,
-                    //items: [],
-                    items: [
-                        {id:1},
-                        {id:2},
-                        {id:3},
-                        {id:4},
-                        {id:5},
-                        {id:6},
-                        {id:7},
-                        {id:8},
-                        {id:9},
-                        {id:10},
-                        {id:11},
-                        {id:12},
-                        {id:13},
-                    ],
+                    items: [],
+                    // items: [
+                    //     {id:1},
+                    //     {id:2},
+                    //     {id:3},
+                    //     {id:4},
+                    //     {id:5},
+                    //     {id:6},
+                    //     {id:7},
+                    //     {id:8},
+                    //     {id:9},
+                    //     {id:10},
+                    //     {id:11},
+                    //     {id:12},
+                    //     {id:13},
+                    // ],
                 }, function () {
                     // do something with new state
                 });
@@ -85,15 +85,15 @@ export default class Exam extends React.Component {
         return (
             <Container>
                 <Content>
-                    <List dataArray={this.state.items}
+                    <List dataArray={this.state.items} style={ {marginLeft : -12}}
                           renderRow={(item) =>
-                              <ListItem onPress={() => this.props.navigation.navigate("Take")}>
+                              <ListItem style={ {paddingLeft : 0}} onPress={() => this.props.navigation.navigate("Take")}>
                                   <Thumbnail square large size={160} source={require("../img/icon-1.png")}/>
                                   <Body>
-                                  <Text>Đề luyện tập toán tuần {item.id}</Text>
+                                  <Text>{item.title}</Text>
                                   <Text note>Trạng thái: Chưa mở</Text>
-                                  <Text note>Lớp 12</Text>
-                                  <Text note>Lượt thi: 12.235</Text>
+                                  <Text note>Lớp {item.class_id}</Text>
+                                  <Text note>Lượt thi: {item.visited}</Text>
                                   </Body>
                               </ListItem>
                           }>
@@ -103,6 +103,7 @@ export default class Exam extends React.Component {
         );
     }
 }
+
 Exam.navigationOptions = ({navigation}) => ({
     header: (
         <Header>

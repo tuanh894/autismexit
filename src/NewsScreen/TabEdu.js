@@ -2,6 +2,7 @@ import React from "react";
 import {Container, Header, Content, List, ListItem, Text, Thumbnail, Body,Button,Left,Icon,Title,Right,Spinner} from 'native-base';
 import Detail from "./Detail.js";
 import styles from "./style.js";
+import Moment from 'moment';
 
 export default class TabEdu extends React.Component {
     constructor(props) {
@@ -41,6 +42,7 @@ export default class TabEdu extends React.Component {
         const {navigate} = this.props.navigation;
 
         return (
+
             <Container style={styles.container}>
                 <Content>
                     <List dataArray={this.state.items}
@@ -50,7 +52,7 @@ export default class TabEdu extends React.Component {
                                   <Body>
                                   <Text>{item.title}</Text>
                                   <Text note>{item.summary}</Text>
-                                  <Text note>{item.published_at}</Text>
+                                  <Text note><Icon ios='ios-time' android="md-time" style={{fontSize: 12, color: '#999'}}/> {Moment(item.published_at * 1000).format('DD-MM-YYYY')}</Text>
                                   </Body>
                               </ListItem>
                           }>

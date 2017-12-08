@@ -2,7 +2,7 @@ import React from "react";
 import Detail from "./Detail.js";
 import {Container, Header, Content, List, ListItem, Text, Thumbnail, Body,Button,Left,Icon,Title,Right,Spinner} from 'native-base';
 import styles from './style';
-
+import Moment from 'moment';
 export default class TabSystem extends React.Component {
     constructor(props) {
         super(props);
@@ -46,7 +46,7 @@ export default class TabSystem extends React.Component {
                                   <Body>
                                   <Text>{item.title}</Text>
                                   <Text note>{item.summary}</Text>
-                                  <Text note>{item.published_at}</Text>
+                                  <Text note><Icon ios='ios-time' android="md-time" style={{fontSize: 12, color: '#999'}}/> {Moment(item.published_at * 1000).format('DD-MM-YYYY')}</Text>
                                   </Body>
                               </ListItem>
                           }>
