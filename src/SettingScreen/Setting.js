@@ -97,6 +97,10 @@ export default class Setting extends React.Component {
   }
 }
 Setting.navigationOptions = ({ navigation }) => ({
+    title: 'Cài đặt',
+    drawerIcon: ({ tintColor }) => (
+        <Icon name = 'ios-settings'/>
+    ),
   header: (
     <Header>
       <Left>

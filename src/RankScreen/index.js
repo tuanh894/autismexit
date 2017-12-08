@@ -29,6 +29,10 @@ const Tab = TabNavigator ({
     });
 
 const DrawNav = StackNavigator({
+    Rank: { screen: Rank },
+});
+
+export const DrawNav1 = StackNavigator({
     TabMost: { screen: Tab },
     DetailProfile: { screen: DetailProfile },
     TabSearch :{screen: TabSearch}

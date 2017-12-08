@@ -16,7 +16,7 @@ import {
   Button,
   H1
 } from "native-base";
-import DrawNav from './index';
+import {DrawNav1} from './index';
 export default class News extends React.Component {
 
     constructor(props) {
@@ -28,7 +28,14 @@ export default class News extends React.Component {
   render() {
     console.log(this.props);
     return (
-      <DrawNav/>
+      <DrawNav1/>
     );
   }
 }
+News.navigationOptions = ({ navigation }) => ({
+    title: 'Tin tức',
+    drawerIcon: ({ tintColor }) => (
+        <Icon name = 'ios-paper'/>
+    ),
+    header: null
+});

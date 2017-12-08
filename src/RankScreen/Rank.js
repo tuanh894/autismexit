@@ -19,7 +19,7 @@ import {
     Button,
     H1,
 } from "native-base";
-import DrawNav from './index';
+import {DrawNav1} from './index';
 export default class Rank extends React.Component {
 
     constructor(props) {
@@ -31,7 +31,15 @@ export default class Rank extends React.Component {
     render() {
         console.log(this.props);
         return (
-            <DrawNav/>
+            <DrawNav1/>
         );
     }
 }
+
+Rank.navigationOptions = ({ navigation }) => ({
+    title: 'Bảng xếp hạng',
+    drawerIcon: ({ tintColor }) => (
+        <Icon name = 'ios-ribbon'/>
+    ),
+    header: null
+});

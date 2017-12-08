@@ -50,6 +50,10 @@ export default class HighSchool extends React.Component {
   }
 }
 HighSchool.navigationOptions = ({ navigation }) => ({
+    title: 'Thi học THPT Quốc Gia',
+    drawerIcon: ({ tintColor }) => (
+        <Icon name = 'ios-school'/>
+    ),
   header: (
     <Header>
       <Left>

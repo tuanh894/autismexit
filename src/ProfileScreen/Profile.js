@@ -26,74 +26,36 @@ export default class Profile extends React.Component {
   }
   render() {
     return (
-      <Container>
-        <Content padder>
-          <List>
-            <ListItem icon>
-                <Left>
-                  <Icon name="plane" />
-                </Left>
-                <Body>
-                  <Text>Thông tin của tôi</Text>
-                </Body>
-                <Right>
-                  <Icon name="arrow-forward" />
-                </Right>
-            </ListItem>
-            
-            <ListItem icon>
-                <Left>
-                  <Icon name="plane" />
-                </Left>
-                <Body>
-                  <Text>Ví của tôi</Text>
-                </Body>
-                <Right>
-                  <Icon name="arrow-forward" />
-                </Right>
-            </ListItem>
-            
-            <ListItem icon>
-                <Left>
-                  <Icon name="plane" />
-                </Left>
-                <Body>
-                  <Text>Lịch sử học tập</Text>
-                </Body>
-                <Right>
-                  <Icon name="arrow-forward" />
-                </Right>
-            </ListItem>
-
-            <ListItem icon>
-                <Left>
-                  <Icon name="plane" />
-                </Left>
-                <Body>
-                  <Text>Phụ huynh của tôi</Text>
-                </Body>
-                <Right>
-                  <Icon name="arrow-forward" />
-                </Right>
-            </ListItem>
-            <ListItem icon>
-                <Left>
-                  <Icon name="plane" />
-                </Left>
-                <Body>
-                  <Text>Giáo viên của tôi</Text>
-                </Body>
-                <Right>
-                  <Icon name="arrow-forward" />
-                </Right>
-            </ListItem>
-          </List>
-        </Content>
-      </Container>
+        <Container>
+            <Content padder>
+                <Card>
+                    <CardItem>
+                        <Icon active name="paper-plane" />
+                        <Text>Show User profiles here</Text>
+                        <Right>
+                            <Icon name="close" />
+                        </Right>
+                    </CardItem>
+                </Card>
+                <Button
+                    full
+                    rounded
+                    primary
+                    style={{ marginTop: 10 }}
+                    onPress={() => this.props.navigation.navigate("EditScreenOne")}
+                >
+                    <Text>Goto EditScreen One</Text>
+                </Button>
+            </Content>
+        </Container>
     );
   }
 }
 Profile.navigationOptions = ({ navigation }) => ({
+    title: 'Thông tin tài khoản',
+    drawerIcon: ({ tintColor }) => (
+        <Icon name = 'ios-person-add'/>
+    ),
   header: (
     <Header>
       <Left>
@@ -108,3 +70,4 @@ Profile.navigationOptions = ({ navigation }) => ({
     </Header>
   )
 });
+

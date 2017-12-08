@@ -105,6 +105,10 @@ export default class Exam extends React.Component {
 }
 
 Exam.navigationOptions = ({navigation}) => ({
+    title: 'Đề luyện tập',
+    drawerIcon: ({ tintColor }) => (
+        <Icon name = 'ios-book'/>
+    ),
     header: (
         <Header>
             <Left>

@@ -65,3 +65,11 @@ export default class HomeScreen extends React.Component {
     );
   }
 }
+
+HomeScreen.navigationOptions = ({ navigation }) => ({
+    title: 'Trang chủ',
+    drawerIcon: ({ tintColor }) => (
+        <Icon name = 'home'/>
+    ),
+});
+

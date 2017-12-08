@@ -47,6 +47,10 @@ export default class Semester extends React.Component {
   }
 }
 Semester.navigationOptions = ({ navigation }) => ({
+    title: 'Thi học kỳ',
+    drawerIcon: ({ tintColor }) => (
+        <Icon name = 'ios-book-outline'/>
+    ),
   header: (
     <Header>
       <Left>
