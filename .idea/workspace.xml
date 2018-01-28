@@ -2,558 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f8a337a-5dca-4e10-8634-77e0aa56e041" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/1/Boling.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/1/keo_do.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/1/keo_tim.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/1/keo_xanh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/1/keo_xanhla.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/1/matmeu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/1/tay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/10/Game-10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/10/coc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/10/keo_tim.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/11/bongbay_do.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/11/chim.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/11/conca.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/11/daugoi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/11/hopsua.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/11/quabong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/11/tao.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/11/tivi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/12/quabong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/13/chuhe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/13/congau.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/14/bi_do.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/14/bi_xanhlam.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/14/hinhtron.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/14/hinhvuong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/14/hoa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/15/balo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/15/cho.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/15/chuong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/15/coc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/15/dienthoai.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/15/dieukhien.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/15/ga.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/15/gatrong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/15/ghe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/15/lon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/15/maybay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/15/meo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/15/tu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/15/xedap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/16/bat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/16/chim.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/16/embe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/16/hoa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/16/khucxuong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/16/thia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/16/tochim.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/17/bacsi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/17/daubep.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/17/giaovien.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/17/hoasi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/17/laixe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/17/laocong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/17/linhcuuhoa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/17/thomay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/18/ao.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/18/balo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/18/but.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/18/dieukhien.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/18/ghe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/18/giuong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/18/tulanh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/19/an.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/19/chay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/19/danhrang.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/19/goidien.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/19/hat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/19/ngu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/19/thucday.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/2/bong_vang.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/2/bong_xanhlam.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/2/bongbay_do.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/20/coclanh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/20/conkien.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/20/matban.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/20/xau.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/20/xinh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/Chuong_cua.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/bi_cam.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/bi_do.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/bi_nau.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/bi_tim.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/bi_trang.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/bi_vang.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/bi_xanhla.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/cho.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/chuong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/chuong_ga_demo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/ga.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/gio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/hinhchunhat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/hinhtamgiac.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/hinhtron.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/hinhvuong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/lo_cam.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/lo_do.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/lo_nau.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/lo_tim.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/lo_xanhla.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/lo_xanhlam.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/lon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/meo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/3/vit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/4/banh_mau_do.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/4/banh_vang.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/4/banh_xanhlam.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/4/bo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/4/chim.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/4/cho.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/4/hinhelip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/4/hinhtamgiac.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/4/hinhthoi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/4/hinhtron.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/4/hinhvuong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/4/lon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/4/meo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/4/traitim.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/4/vit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/5/banh_vang.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/5/banh_xanhlam.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/5/chim.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/5/hinhchunhat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/5/hinhtamgiac.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/5/hinhtron.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/5/meo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/bat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/bo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/cho.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/chomchom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/chuoi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/chuot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/coc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/dep.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/duahau.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/ga.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/giuong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/hong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/khanmat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/maysaytoc_background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/mit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/mu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/na.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/ngua.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/nho.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/oto.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/tao.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/tivi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/trau.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/tu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/vai.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/6/vit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/7/banh_do.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/7/banh_tim.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/7/banh_vang.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/7/banh_xanhlam.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/7/bat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/7/giay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/7/keo_do.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/7/tao.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/8/banhxedap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/8/dongho_vuong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/8/hinh_lucgiac.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/8/hinhchunhat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/8/hinhthoi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/8/hinhvuong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/9/tui10keo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/9/tui15keo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/9/tui1keo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Boling.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Home_Menu.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/__MACOSX/game 11-20/._19" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/__MACOSX/game 11-20/._20" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/bg_ip6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/fb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/11/khong biet bơi.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/11/khonganduoc.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/11/khongbietboi.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/11/khongphaila...dodung.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/11/khongphaila...dongvat.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/11/khongphaila...oto.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/11/khongphailacaibanh.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/11/khongphailaqua.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/12/haydequabongduoiban.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/12/haydequabongtrenban.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/12/layquabongduoibanchovaoro.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/12/layquabongtrenbanchovaoro.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/13/decongauphiasauchuhe 2.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/13/layquabongduoibanchovaoro.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/14/dayhinhvuonghinhtron.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/14/hãyeptiepdaykeobanhbanh.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/15/cainaokeutictac.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/15/cáinaodengoi.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/15/xenaokeupippip 2.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/16/behayghepthanhcap.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/16/binhsuavoiwembe.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/16/caibatvoicaithia2.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/16/conchimvoitochim.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/16/conchovoikhucxuong.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/aichohanhkhach.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/aidaptatdamchay4.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/aidayhocsinhtrongtruownghoc.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/ailaimaybay1.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/ailamviectrongcuahangr.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/ainauantronghahang.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/aiquetdonduongpho.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/aivebuctranhdep.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/banhangdau.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/giaovien.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/giaoviendau.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/hoasi.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/hoasidau.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/hoasidau2.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/laixedau.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/laocongdau.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/linhcuuhoa.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/linhcuuhoadau.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/nguoidaptatdamchay.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/nguoidayhocsinhtrongtruonghoc.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/nguoikhambenhchobenhnhan.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/nguoilaimaybay.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/nguoilaimaybay1.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/nguoilamviectrongcuahang.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/nguoimayraquanao.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/nguoinauantrongnhahang.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/nguoiquetdonduongpho.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/nguoitrohanhkhach.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/nguoivenhungbuctranhdep.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/phi cong.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/phicong1.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/phicongdau.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/thomay.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/17/thomaydau.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/balodau.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/caiaodau.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/caibaoquanthuan1.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/caibutdau.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/caicoc.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/caidebattivi.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/caidedungquaaodilop.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/caidedungquanao.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/caidemac.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/caidengoi.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/caideruataychosach.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/caideuongnuoc.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/caideviet.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/caighe1.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/caighedau.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/caigibaoquanthucan.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/caigidebattivi.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/caigidedungquanaodilop.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/caigidemac.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/caigideuongnuoc.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/cái bút.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/dieukhien.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/dieukhiendau1.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/doigiay1.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/doigiaydau1.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/tulanh.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/18/tulanhdau.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/19/Ai dang cam ban chai dua len mieng.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/19/Ai dang cam may say de gan toc1.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/19/Ai dang cam mic de gan mieng.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/19/Ai dang nam tren giuong dap chan nham mat lai.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/19/Ai dang ngoi tren.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/19/Ai dang thuc day1.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/19/Ai hai tay cam coc dua len mieng.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/19/Ai đang goi dien.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/19/Ai đang ăn bánh.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/19/Anh dang danh rang.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/19/Ban dag thuc day.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/X gionaonhieuquar.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/X mat bạnnaokhong sv.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/X mat khong ban.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/X matbannaokhong bay.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/X_banmatsach.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/X_bannaomatban.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/X_con nao nho.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/bannaomatsach.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/cai coc lanh.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/cai coc nao vo.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/cai coc vo 1.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/cay khong cao.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/cay khong thap (2).m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/cay khongcao.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/caycao.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/caynaocao.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/caynaokhongcao.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/caynaokhongthap.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/caynaothap3.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/caythap.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/coc khong lanh1.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/coc nao khong lanh.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/coc nao lanh.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/coc nao vo.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/cokhongxinh.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/con khong nho.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/con voi to.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/conaokhongxau.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/conaokhongxinh1.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/conaoxau.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/conaoxinh.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/connaoto.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/coxau.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/gio khongitqua1.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/gio ko it qua.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/gio nao khong nhie wa.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/gio nhieu qa.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/gionaoitqua.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/gionaokhongitqua.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/game 11-20/audios/20/giỏ ít quả.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/name.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/rate.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/share.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/sound1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/sound2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/tay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game1/Game1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game1/Game1_2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game1/Game1_4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game1/Game1_5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game1/Game2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game1/style.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game10/Game10.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game10/Game10_1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game10/Game10_2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game10/style.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game11/Game11.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game11/Game11_3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game11/Game11_4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game11/Game11_5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game11/Game11_6.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game11/style.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game5/Game5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game5/Game5_1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game5/Game5_4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game5/style.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game6/Game6_1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game6/Game6_2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game6/Game6_3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game6/Game6_4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game6/style.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game7/Game7.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game7/Game7_1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game7/Game7_2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game7/Game7_5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game7/Game7_6.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game8/Game8.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game8/style.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game9/Game9_1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Home/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Home/style_draft.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game2/Game2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game2/Game2_1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game2/Game2_2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game2/Game2_5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game2/Game2_6.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game2/style.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game3/Test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game4/Game4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game4/Game4_1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game4/Game4_2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game4/Game4_3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game4/style.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/Utils/viewPropTypes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/Utils/viewPropTypes.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/native-base/src/Utils/viewPropTypes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-native-drawer/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-native-keyboard-aware-scroll-view/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/AboutScreen/About.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/AboutScreen/style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/AdviserScreen/DetailAdviser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/AdviserScreen/style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ChatScreen/Detail.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ChatScreen/LucyChat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ChatScreen/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ExamScreen/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GuideScreen/DetailGuide.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GuideScreen/Guide.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GuideScreen/style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HighSchoolScreen/HighSchool.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HomeScreen/HomeScreen.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ListScreen/Detail.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ListScreen/TabEdu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ListScreen/TabSystem.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ListScreen/edu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ListScreen/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/LoginScreen/Logout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/LoginScreen/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/NewsScreen/TabEdu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/NewsScreen/TabSystem.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/NewsScreen/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ProfileScreen/Profile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ProfileScreen/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/RankScreen/StylesDetail.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/RankScreen/TabAverage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/RankScreen/TabDistrict.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/RankScreen/TabMost.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/RankScreen/TabReport.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/RankScreen/TabSearch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/SemesterScreen/Semester.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/SemesterScreen/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/SettingScreen/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/SideBar/SideBar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/SideBar/style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TakeScreen/Take.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TakeScreen/index.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.expo/packager-info.json" afterPath="$PROJECT_DIR$/.expo/packager-info.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App.js" afterPath="$PROJECT_DIR$/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@expo/vector-icons/createIconSetFromFontello.js" afterPath="$PROJECT_DIR$/node_modules/@expo/vector-icons/createIconSetFromFontello.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@expo/vector-icons/package.json" afterPath="$PROJECT_DIR$/node_modules/@expo/vector-icons/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/camelcase/package.json" afterPath="$PROJECT_DIR$/node_modules/camelcase/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clamp/package.json" afterPath="$PROJECT_DIR$/node_modules/clamp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/execa/package.json" afterPath="$PROJECT_DIR$/node_modules/execa/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/load-json-file/node_modules/pify/package.json" afterPath="$PROJECT_DIR$/node_modules/load-json-file/node_modules/pify/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/load-json-file/package.json" afterPath="$PROJECT_DIR$/node_modules/load-json-file/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base-shoutem-theme/package.json" afterPath="$PROJECT_DIR$/node_modules/native-base-shoutem-theme/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/native-base/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/Utils/index.js" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/Utils/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/Utils/index.js.map" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/Utils/index.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Actionsheet.js" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Actionsheet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Actionsheet.js.map" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Actionsheet.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Badge.js.map" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Badge.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Body.js" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Body.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Body.js.map" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Body.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Button.js" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Content.js" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Content.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/DeckSwiper.js.map" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/DeckSwiper.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Footer.js" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Footer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Footer.js.map" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Footer.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/FooterTab.js.map" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/FooterTab.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Form.js" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Header.js" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Header.js.map" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Header.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/InputGroup.js" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/InputGroup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/InputGroup.js.map" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/InputGroup.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Left.js" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Left.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Picker.ios.js" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Picker.ios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Picker.ios.js.map" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Picker.ios.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Right.js" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Right.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Right.js.map" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Right.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Root.js" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Root.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Segment.js" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Segment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Segment.js.map" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Segment.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Tab.js.map" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Tab.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/TabContainer.js.map" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/TabContainer.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/TabHeading.js" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/TabHeading.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Tabs/index.js" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Tabs/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Tabs/index.js.map" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Tabs/index.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Toast.js" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Toast.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Toast.js.map" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/Toast.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/View.js" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/basic/View.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/theme/components/Card.js" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/theme/components/Card.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/theme/components/Header.js" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/theme/components/Header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/theme/components/Header.js.map" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/theme/components/Header.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/theme/variables/commonColor.js" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/theme/variables/commonColor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/theme/variables/commonColor.js.map" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/theme/variables/commonColor.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/theme/variables/material.js" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/theme/variables/material.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/theme/variables/material.js.map" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/theme/variables/material.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/dist/src/theme/variables/platform.js" afterPath="$PROJECT_DIR$/node_modules/native-base/dist/src/theme/variables/platform.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/index.d.ts" afterPath="$PROJECT_DIR$/node_modules/native-base/index.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/node_modules/color-string/package.json" afterPath="$PROJECT_DIR$/node_modules/native-base/node_modules/color-string/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/node_modules/color/package.json" afterPath="$PROJECT_DIR$/node_modules/native-base/node_modules/color/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/node_modules/jsonfile/package.json" afterPath="$PROJECT_DIR$/node_modules/native-base/node_modules/jsonfile/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/node_modules/native-base/node_modules/lodash/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/Utils/index.js" afterPath="$PROJECT_DIR$/node_modules/native-base/src/Utils/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/basic/Actionsheet.js" afterPath="$PROJECT_DIR$/node_modules/native-base/src/basic/Actionsheet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/basic/Body.js" afterPath="$PROJECT_DIR$/node_modules/native-base/src/basic/Body.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/basic/Button.js" afterPath="$PROJECT_DIR$/node_modules/native-base/src/basic/Button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/basic/Card.js" afterPath="$PROJECT_DIR$/node_modules/native-base/src/basic/Card.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/basic/Content.js" afterPath="$PROJECT_DIR$/node_modules/native-base/src/basic/Content.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/basic/DeckSwiper.js" afterPath="$PROJECT_DIR$/node_modules/native-base/src/basic/DeckSwiper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/basic/Footer.js" afterPath="$PROJECT_DIR$/node_modules/native-base/src/basic/Footer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/basic/FooterTab.js" afterPath="$PROJECT_DIR$/node_modules/native-base/src/basic/FooterTab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/basic/Form.js" afterPath="$PROJECT_DIR$/node_modules/native-base/src/basic/Form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/basic/Icon/NBIcons.json" afterPath="$PROJECT_DIR$/node_modules/native-base/src/basic/Icon/NBIcons.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/basic/InputGroup.js" afterPath="$PROJECT_DIR$/node_modules/native-base/src/basic/InputGroup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/basic/Left.js" afterPath="$PROJECT_DIR$/node_modules/native-base/src/basic/Left.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/basic/Right.js" afterPath="$PROJECT_DIR$/node_modules/native-base/src/basic/Right.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/basic/Segment.js" afterPath="$PROJECT_DIR$/node_modules/native-base/src/basic/Segment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/basic/Separator.js" afterPath="$PROJECT_DIR$/node_modules/native-base/src/basic/Separator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/basic/Tab.js" afterPath="$PROJECT_DIR$/node_modules/native-base/src/basic/Tab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/basic/TabContainer.js" afterPath="$PROJECT_DIR$/node_modules/native-base/src/basic/TabContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/basic/TabHeading.js" afterPath="$PROJECT_DIR$/node_modules/native-base/src/basic/TabHeading.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/basic/Tabs/index.js" afterPath="$PROJECT_DIR$/node_modules/native-base/src/basic/Tabs/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/basic/Toast.js" afterPath="$PROJECT_DIR$/node_modules/native-base/src/basic/Toast.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/basic/ToastContainer.js" afterPath="$PROJECT_DIR$/node_modules/native-base/src/basic/ToastContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/basic/View.js" afterPath="$PROJECT_DIR$/node_modules/native-base/src/basic/View.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/theme/variables/commonColor.js" afterPath="$PROJECT_DIR$/node_modules/native-base/src/theme/variables/commonColor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/theme/variables/material.js" afterPath="$PROJECT_DIR$/node_modules/native-base/src/theme/variables/material.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/native-base/src/theme/variables/platform.js" afterPath="$PROJECT_DIR$/node_modules/native-base/src/theme/variables/platform.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/npm-run-path/package.json" afterPath="$PROJECT_DIR$/node_modules/npm-run-path/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/path-key/package.json" afterPath="$PROJECT_DIR$/node_modules/path-key/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/path-type/node_modules/pify/package.json" afterPath="$PROJECT_DIR$/node_modules/path-type/node_modules/pify/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/path-type/package.json" afterPath="$PROJECT_DIR$/node_modules/path-type/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/print-message/node_modules/ansi-regex/package.json" afterPath="$PROJECT_DIR$/node_modules/print-message/node_modules/ansi-regex/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/print-message/node_modules/ansi-styles/package.json" afterPath="$PROJECT_DIR$/node_modules/print-message/node_modules/ansi-styles/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/print-message/node_modules/chalk/package.json" afterPath="$PROJECT_DIR$/node_modules/print-message/node_modules/chalk/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/print-message/node_modules/strip-ansi/package.json" afterPath="$PROJECT_DIR$/node_modules/print-message/node_modules/strip-ansi/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/print-message/node_modules/supports-color/package.json" afterPath="$PROJECT_DIR$/node_modules/print-message/node_modules/supports-color/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-drawer/package.json" afterPath="$PROJECT_DIR$/node_modules/react-native-drawer/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-easy-grid/package.json" afterPath="$PROJECT_DIR$/node_modules/react-native-easy-grid/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-keyboard-aware-scroll-view/package.json" afterPath="$PROJECT_DIR$/node_modules/react-native-keyboard-aware-scroll-view/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/TypeDefinition.js" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/TypeDefinition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/createNavigationContainer.js" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/createNavigationContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/navigators/DrawerNavigator.js.flow" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/navigators/DrawerNavigator.js.flow" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/routers/TabRouter.js.flow" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/routers/TabRouter.js.flow" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/views/CardStack/CardStack.js" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/views/CardStack/CardStack.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/views/Drawer/DrawerView.js" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/views/Drawer/DrawerView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/views/Drawer/DrawerView.js.flow" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/views/Drawer/DrawerView.js.flow" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/views/Header/Header.js.flow" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/views/Header/Header.js.flow" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/views/SafeAreaView.js" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/views/SafeAreaView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/views/SafeAreaView.js.flow" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/views/SafeAreaView.js.flow" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/views/TabView/TabBarTop.js" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/views/TabView/TabBarTop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/views/TabView/TabBarTop.js.flow" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/views/TabView/TabBarTop.js.flow" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/views/Transitioner.js" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib-rn/views/Transitioner.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib/routers/TabRouter.js" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib/routers/TabRouter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib/routers/TabRouter.js.flow" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib/routers/TabRouter.js.flow" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib/views/CardStack/CardStack.js" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib/views/CardStack/CardStack.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib/views/CardStack/CardStack.js.flow" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib/views/CardStack/CardStack.js.flow" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib/views/Drawer/DrawerView.js" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib/views/Drawer/DrawerView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib/views/Drawer/DrawerView.js.flow" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib/views/Drawer/DrawerView.js.flow" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib/views/SafeAreaView.js.flow" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib/views/SafeAreaView.js.flow" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib/views/TabView/TabBarTop.js" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib/views/TabView/TabBarTop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib/views/TabView/TabBarTop.js.flow" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib/views/TabView/TabBarTop.js.flow" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib/views/TabView/TabView.js" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib/views/TabView/TabView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib/views/TabView/TabView.js.flow" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib/views/TabView/TabView.js.flow" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib/views/Transitioner.js" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib/views/Transitioner.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/lib/views/Transitioner.js.flow" afterPath="$PROJECT_DIR$/node_modules/react-navigation/lib/views/Transitioner.js.flow" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/node_modules/react-navigation/node_modules/isarray/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/node_modules/path-to-regexp/package.json" afterPath="$PROJECT_DIR$/node_modules/react-navigation/node_modules/path-to-regexp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/package.json" afterPath="$PROJECT_DIR$/node_modules/react-navigation/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/src/TypeDefinition.js" afterPath="$PROJECT_DIR$/node_modules/react-navigation/src/TypeDefinition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/src/navigators/__tests__/__snapshots__/DrawerNavigator-test.js.snap" afterPath="$PROJECT_DIR$/node_modules/react-navigation/src/navigators/__tests__/__snapshots__/DrawerNavigator-test.js.snap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/src/navigators/__tests__/__snapshots__/TabNavigator-test.js.snap" afterPath="$PROJECT_DIR$/node_modules/react-navigation/src/navigators/__tests__/__snapshots__/TabNavigator-test.js.snap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/src/routers/TabRouter.js" afterPath="$PROJECT_DIR$/node_modules/react-navigation/src/routers/TabRouter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/src/routers/__tests__/TabRouter-test.js" afterPath="$PROJECT_DIR$/node_modules/react-navigation/src/routers/__tests__/TabRouter-test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/src/views/CardStack/CardStack.js" afterPath="$PROJECT_DIR$/node_modules/react-navigation/src/views/CardStack/CardStack.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/src/views/Header/Header.js" afterPath="$PROJECT_DIR$/node_modules/react-navigation/src/views/Header/Header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/src/views/SafeAreaView.js" afterPath="$PROJECT_DIR$/node_modules/react-navigation/src/views/SafeAreaView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-navigation/src/views/Transitioner.js" afterPath="$PROJECT_DIR$/node_modules/react-navigation/src/views/Transitioner.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-tween-state/package.json" afterPath="$PROJECT_DIR$/node_modules/react-tween-state/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/read-pkg/package.json" afterPath="$PROJECT_DIR$/node_modules/read-pkg/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/simple-swizzle/node_modules/is-arrayish/package.json" afterPath="$PROJECT_DIR$/node_modules/simple-swizzle/node_modules/is-arrayish/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/simple-swizzle/package.json" afterPath="$PROJECT_DIR$/node_modules/simple-swizzle/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/strip-eof/package.json" afterPath="$PROJECT_DIR$/node_modules/strip-eof/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/which-module/package.json" afterPath="$PROJECT_DIR$/node_modules/which-module/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yargs/package.json" afterPath="$PROJECT_DIR$/node_modules/yargs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game3/Test.js" afterPath="$PROJECT_DIR$/src/game3/Test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -577,17 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".watchmanconfig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.watchmanconfig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Home/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-485">
@@ -624,18 +64,8 @@
       <file leaf-file-name="Game1.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Game1/Game1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="226" column="35" lean-forward="false" selection-start-line="226" selection-start-column="35" selection-end-line="226" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game3/Test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="268" column="103" lean-forward="false" selection-start-line="268" selection-start-column="74" selection-end-line="268" selection-end-column="103" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -643,32 +73,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game3/style.js">
+      <file leaf-file-name="Test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/game3/Test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1165">
-              <caret line="64" column="22" lean-forward="false" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Game2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Game1/Game2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Home/style.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1210">
-              <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="550">
+              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -722,10 +134,10 @@
         <option value="$PROJECT_DIR$/src/Game1/style.js" />
         <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/src/Game1/Game1.js" />
-        <option value="$PROJECT_DIR$/src/game3/Test.js" />
         <option value="$PROJECT_DIR$/src/game3/style.js" />
         <option value="$PROJECT_DIR$/src/Home/index.js" />
         <option value="$PROJECT_DIR$/src/Home/Home.js" />
+        <option value="$PROJECT_DIR$/src/game3/Test.js" />
       </list>
     </option>
   </component>
@@ -783,6 +195,18 @@
               <item name="GameDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GameDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GameDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Game1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GameDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GameDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -839,17 +263,18 @@
       <workItem from="1514427637750" duration="345000" />
       <workItem from="1514478154653" duration="2461000" />
       <workItem from="1515082960631" duration="22000" />
-      <workItem from="1517167206036" duration="930000" />
+      <workItem from="1517167206036" duration="3081000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48171000" />
+    <option name="totallyTimeSpent" value="50322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18228404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18228404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -889,8 +314,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LoginScreen/LoginScreen.js" />
-    <entry file="file://$PROJECT_DIR$/src/NewsScreen/TabEdu.js" />
     <entry file="file://$PROJECT_DIR$/src/RankScreen/repo.js" />
     <entry file="file://$PROJECT_DIR$/src/RankScreen/Detail.js" />
     <entry file="file://$PROJECT_DIR$/src/RankScreen/index.js" />
@@ -1008,32 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game1/Game2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game1/Game1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="226" column="35" lean-forward="false" selection-start-line="226" selection-start-column="35" selection-end-line="226" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game3/Test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/game3/style.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1165">
@@ -1056,6 +453,54 @@
           <caret line="68" column="32" lean-forward="true" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game1/Game2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game2/Game2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-638">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game1/Game1_2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="119" column="3" lean-forward="false" selection-start-line="119" selection-start-column="3" selection-end-line="121" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game1/Game1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="268" column="103" lean-forward="false" selection-start-line="268" selection-start-column="74" selection-end-line="268" selection-end-column="103" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game3/Test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

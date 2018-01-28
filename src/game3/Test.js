@@ -7,24 +7,52 @@ import styles from './style';
 export default class Test extends React.Component {
     constructor(props) {
         super(props);
+        this.state = {
+            x: null,
+            y: null,
+            marginLeft: new Animated.Value(0),
+            marginTop: new Animated.Value(0),
+
+        }
     }
+
     static navigationOptions = {
         header: null
     };
+
     onPress(evt) {
         const {locationX, locationY} = evt.nativeEvent;
+        this.setState({
+            x: locationX,
+            y: locationY
+        });
         console.log(locationX, locationY);
     }
 
     onMove(evt) {
+        const {locationX, locationY} = evt.nativeEvent;
+        const {x, y} = this.state;
+        const marginLeft = new Animated.Value(locationX - x);
+        const marginTop = new Animated.Value(locationY - y);
+        this.setState({marginLeft, marginTop});
         console.log('Im moving');
     }
 
     onRelease(evt) {
-        console.log('stop')
+        const {locationX, locationY} = evt.nativeEvent;
+        const {x, y} = this.state;
+        const marginLeft = new Animated.Value(locationX - x);
+        const marginTop = new Animated.Value(locationY - y);
+        this.setState({ x: locationX,
+            y: locationY,marginLeft, marginTop});
+    }
+
+    goBack() {
+        this.props.navigation.navigate("Home")
     }
 
     render() {
+        const {marginLeft, marginTop} = this.state;
         return (
             <Container style={styles.container}>
                 <Image style={styles.images}
@@ -34,23 +62,25 @@ export default class Test extends React.Component {
                        onResponderRelease={this.onRelease.bind(this)}
                        onResponderGrant={this.onPress.bind(this)}
                        source={require('../img/bg_ip6.png')}>
-                    <View/>
-                </Image>
-                <View style={styles.view1}>
-                    <View style={styles.header}>
-                        <View style={styles.headerLeft}>
-                            <TouchableOpacity
-                                onPress={() => this.goBack()}
-                            >
-                                <Image style={styles.imagesLeft} source={require('../img/back.png')}></Image>
-                            </TouchableOpacity>
+                    <View style={styles.view1}>
+                        <View style={styles.header}>
+                            <View style={styles.headerLeft}>
+                                <TouchableOpacity
+                                    onPress={() => this.goBack()}
+                                >
+                                    <Image style={styles.imagesLeft} source={require('../img/back.png')}></Image>
+                                </TouchableOpacity>
 
+                            </View>
+                        </View>
+                        <View style={styles.main}>
+                            <Animated.Image style={{width: 70, height: 50, marginLeft, marginTop}}
+                                            source={require('../img/1/keo_do.png')}/>
                         </View>
                     </View>
-                    <View style={styles.main}>
 
-                    </View>
-                </View>
+                </Image>
+
             </Container>
 
         );
