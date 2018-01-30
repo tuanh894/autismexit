@@ -112,6 +112,16 @@ const styles = StyleSheet.create({
         right:'15%'
         // transform: [{ rotate: '325deg'}]
     },
+    mainIma3_2nd: {
+        width:25,
+        height:25,
+        resizeMode: 'contain',
+        position:'absolute',
+        left:'70%',
+        top:'60%',
+        right:'15%'
+        // transform: [{ rotate: '325deg'}]
+    },
     mainIma2nd: {
         width:55,
         height:55,

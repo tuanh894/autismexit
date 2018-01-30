@@ -47,6 +47,13 @@ const styles = StyleSheet.create({
         paddingRight:30,
 
     },
+    main2:{
+
+        flex: 1,
+        flexDirection: "row",
+        paddingLeft:30,
+        paddingRight:30,
+    },
     mainItem: {
         flex: 3,
         width: '100%',
@@ -64,7 +71,7 @@ const styles = StyleSheet.create({
         width: 70, height: 50
     },
     images_bi:{
-        width: 35, height: 35,
+        width: 40, height: 37,
     },
 });
 export default styles;

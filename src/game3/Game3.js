@@ -1,115 +1,283 @@
-import React from "react";
-import {Button, Card, CardItem, Container, Image, Content, Header, Icon, Left, Right, Title} from "native-base";
-import {
-    StyleSheet,
-    View,
-    Text,
-    PanResponder,
-    Animated,
-    Easing,
-    Dimensions,
-    Platform,
-    TouchableOpacity,
-} from 'react-native';
-// import styles from './style';
+import React, {Component} from "react";
+import {Button, Card, CardItem, Container, Content, Header, Icon, Left, Right, Title} from "native-base";
+import {Animated, View, Image, TouchableOpacity, PanResponder} from 'react-native';
+import styles from './style';
 
-// var song = null;
-let CIRCLE_RADIUS = 36;
-let Window = Dimensions.get('window');
-
-export default class Game3 extends React.Component {
-    constructor(props){
+class Draggable1 extends Component {
+    constructor(props) {
         super(props);
 
-        this.dataDrag = [1,2,3,4];
-        this.pan = this.dataDrag.map( () => new Animated.ValueXY() );
-
         this.state = {
-            showDraggable   : true,
-            dropZoneValues  : null,
+            showDraggable: true,
+            dropAreaValues: null,
+            pan: new Animated.ValueXY(),
+            opacity: new Animated.Value(1)
         };
     }
 
-    getPanResponder(index) {
-        return PanResponder.create({
-            onStartShouldSetPanResponder: () => true,
-            onPanResponderMove              : Animated.event([null,{
-                dx  : this.pan[index].x,
-                dy  : this.pan[index].y
-            }]),
-            onPanResponderRelease           : (e, gesture) => {
-                if(this.isDropZone(gesture)){
-                    this.setState({
-                        showDraggable : false
-                    });
-                }else{
-                    Animated.spring(
-                        this.pan[index],
-                        {toValue:{x:0,y:0}}
-                    ).start();
+    componentWillMount() {
+        this._val = { x:0, y:0 }
+        this.state.pan.addListener((value) => this._val = value);
+
+        this.panResponder = PanResponder.create({
+            onStartShouldSetPanResponder: (e, gesture) => true,
+            onPanResponderGrant: (e, gesture) => {
+                this.state.pan.setOffset({
+                    x: this._val.x,
+                    y:this._val.y
+                })
+                this.state.pan.setValue({ x:0, y:0})
+            },
+            onPanResponderMove: Animated.event([
+                null, { dx: this.state.pan.x, dy: this.state.pan.y }
+            ]),
+            onPanResponderRelease: (e, gesture) => {
+                if (this.isDropArea(gesture)) {
+                    Animated.timing(this.state.opacity, {
+                        toValue: 0,
+                        duration: 1000
+                    }).start(() =>
+                        this.setState({
+                            showDraggable: false
+                        })
+                    );
                 }
             }
         });
     }
 
-    isDropZone(gesture){
-        var dz = this.state.dropZoneValues;
-        return gesture.moveY > dz.y && gesture.moveY < dz.y + dz.height;
+    isDropArea(gesture) {
+        return gesture.moveY < 200;
     }
 
+    render() {
+        return (
+            <View style={{ width: "33%",marginTop:'20%', alignItems: "center"}}>
+                {this.renderDraggable()}
+            </View>
+        );
+    }
 
-    setDropZoneValues(event){
-        this.setState({
-            dropZoneValues : event.nativeEvent.layout
+    renderDraggable() {
+        const panStyle = {
+            transform: this.state.pan.getTranslateTransform()
+        }
+        if (this.state.showDraggable) {
+            return (
+                <View style={{ position: "absolute" }}>
+                    <Animated.Image
+                        {...this.panResponder.panHandlers}
+                        source={require('../img/3/bi_den.png')}
+                        style={[panStyle,styles.images_bi, {opacity:this.state.opacity}]}
+                    />
+                </View>
+            );
+        }
+    }
+}
+
+class Draggable2 extends Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            showDraggable: true,
+            dropAreaValues: null,
+            pan: new Animated.ValueXY(),
+            opacity: new Animated.Value(1)
+        };
+    }
+
+    componentWillMount() {
+        this._val = { x:0, y:0 }
+        this.state.pan.addListener((value) => this._val = value);
+
+        this.panResponder = PanResponder.create({
+            onStartShouldSetPanResponder: (e, gesture) => true,
+            onPanResponderGrant: (e, gesture) => {
+                this.state.pan.setOffset({
+                    x: this._val.x,
+                    y:this._val.y
+                })
+                this.state.pan.setValue({ x:0, y:0})
+            },
+            onPanResponderMove: Animated.event([
+                null, { dx: this.state.pan.x, dy: this.state.pan.y }
+            ]),
+            onPanResponderRelease: (e, gesture) => {
+                if (this.isDropArea(gesture)) {
+                    Animated.timing(this.state.opacity, {
+                        toValue: 0,
+                        duration: 1000
+                    }).start(() =>
+                        this.setState({
+                            showDraggable: false
+                        }),
+
+                    );
+                }
+            }
         });
     }
 
-    render(){
-        return (
-            <View style={styles.mainContainer}>
-                <View
-                    onLayout={this.setDropZoneValues.bind(this)}
-                    style={styles.dropZone}>
-                    <Text style={styles.text}>Drop me here!</Text>
-                </View>
+    isDropArea(gesture) {
+        return gesture.moveY < 200;
+    }
 
-                {this.dataDrag.map((d, index) => (
-                    <Animated.View
-                        key={index}
-                        {...this.getPanResponder(index).panHandlers}
-                        style={[styles.draggableContainer, this.pan[index].getLayout(), styles.circle]}>
-                        <Text style={styles.text}>Drag {index}</Text>
-                    </Animated.View>
-                ))}
+    render() {
+        return (
+            <View style={{ width: "33%",height:'100%',marginTop:'20%', alignItems: "center"}}>
+                {this.renderDraggable()}
             </View>
+        );
+    }
+
+    renderDraggable() {
+        const panStyle = {
+            transform: this.state.pan.getTranslateTransform()
+        }
+        if (this.state.showDraggable) {
+            return (
+                <View style={{ position: "absolute" }}>
+                    <Animated.Image
+                        {...this.panResponder.panHandlers}
+                        source={require('../img/3/bi_cam.png')}
+                        style={[panStyle,styles.images_bi, {opacity:this.state.opacity}]}
+                    />
+                </View>
+            );
+        }
+    }
+}
+
+class Draggable3 extends Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            showDraggable: true,
+            dropAreaValues: null,
+            pan: new Animated.ValueXY(),
+            opacity: new Animated.Value(1)
+        };
+    }
+
+    componentWillMount() {
+        this._val = { x:0, y:0 }
+        this.state.pan.addListener((value) => this._val = value);
+
+        this.panResponder = PanResponder.create({
+            onStartShouldSetPanResponder: (e, gesture) => true,
+            onPanResponderGrant: (e, gesture) => {
+                this.state.pan.setOffset({
+                    x: this._val.x,
+                    y:this._val.y
+                })
+                this.state.pan.setValue({ x:0, y:0})
+            },
+            onPanResponderMove: Animated.event([
+                null, { dx: this.state.pan.x, dy: this.state.pan.y }
+            ]),
+            onPanResponderRelease: (e, gesture) => {
+                if (this.isDropArea(gesture)) {
+                    Animated.timing(this.state.opacity, {
+                        toValue: 0,
+                        duration: 1000
+                    }).start(() =>
+                        this.setState({
+                            showDraggable: false,
+                            lo3: true
+                        })
+                    );
+
+                }
+            }
+        });
+    }
+
+    isDropArea(gesture) {
+        return gesture.moveY < 200;
+    }
+
+    render() {
+        return (
+            <View style={{ width: "33%",marginTop:'20%', alignItems: "center" }}>
+                {this.renderDraggable()}
+            </View>
+        );
+    }
+
+    renderDraggable() {
+        const panStyle = {
+            transform: this.state.pan.getTranslateTransform()
+        }
+        if (this.state.showDraggable) {
+            return (
+                <View style={{ position: "absolute" }}>
+                    <Animated.Image
+                        {...this.panResponder.panHandlers}
+                        source={require('../img/3/bi_do.png')}
+                        style={[panStyle,styles.images_bi, {opacity:this.state.opacity}]}
+                    />
+                </View>
+            );
+        }
+    }
+}
+
+export default class Game3 extends React.Component {
+    static navigationOptions = {
+        header: null
+    };
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            lo1: false,
+            lo2: false,
+            lo3: false,
+        };
+    }
+    goBack() {
+        this.props.navigation.navigate("Home")
+    }
+
+    render() {
+        return (
+            <Container style={styles.container}>
+                <Image style={styles.images} source={require('../img/bg_ip6.png')}>
+                    <View style={styles.view1}>
+                        <View style={styles.header}>
+                            <View style={styles.headerLeft}>
+                                <TouchableOpacity onPress={() => this.goBack()}>
+                                    <Image style={styles.imagesLeft} source={require('../img/back.png')}></Image>
+                                </TouchableOpacity>
+
+                            </View>
+                        </View>
+                        <View style={styles.main}>
+                            <Image style={{width: 80,height:110,marginRight:'20%',marginLeft:'10%', alignItems: "center"}}
+                                   source={require('../img/3/lo_den.png')}/>
+
+                            <Image style={{width: 80, height: 110,marginRight:'20%', alignItems: "center"}}
+                                   source={require('../img/3/lo_cam.png')}/>
+
+                            <Image style={{width: 80, height: 110,marginRight:'20%', alignItems: "center"}}
+                                   source={require('../img/3/lo_do.png')}/>
+                        </View>
+                        <View style={styles.main2}>
+                            <Draggable1/>
+                            <Draggable2/>
+                            <Draggable3/>
+                        </View>
+                    </View>
+
+                </Image>
+
+            </Container>
+
         );
     }
 }
 
-let styles = StyleSheet.create({
-    mainContainer: {
-        flex    : 1
-    },
-    dropZone    : {
-        height  : 100,
-        backgroundColor:'#2c3e50'
-    },
-    text        : {
-        marginTop   : 25,
-        marginLeft  : 5,
-        marginRight : 5,
-        textAlign   : 'center',
-        color       : '#fff'
-    },
-    draggableContainer: {
-        position    : 'absolute',
-        marginTop         : Window.height/2 - CIRCLE_RADIUS,
-        marginLeft        : Window.width/2 - CIRCLE_RADIUS,
-    },
-    circle      : {
-        backgroundColor     : '#1abc9c',
-        width               : CIRCLE_RADIUS*2,
-        height              : CIRCLE_RADIUS*2,
-        borderRadius        : CIRCLE_RADIUS
-    },
-});
+
