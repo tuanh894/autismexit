@@ -31,20 +31,22 @@ export default class Test extends React.Component {
 
     onMove(evt) {
         const {locationX, locationY} = evt.nativeEvent;
-        const {x, y} = this.state;
-        const marginLeft = new Animated.Value(locationX - x);
-        const marginTop = new Animated.Value(locationY - y);
-        this.setState({marginLeft, marginTop});
-        console.log('Im moving');
+        const{x , y} = this.state;
+        const marginLeft = locationX -x ;
+        const marginTop = locationY -y;
+        this.setState({
+            marginLeft,marginTop
+        });
+        console.log(marginLeft,marginTop);
     }
 
     onRelease(evt) {
         const {locationX, locationY} = evt.nativeEvent;
-        const {x, y} = this.state;
-        const marginLeft = new Animated.Value(locationX - x);
-        const marginTop = new Animated.Value(locationY - y);
-        this.setState({ x: locationX,
-            y: locationY,marginLeft, marginTop});
+        this.setState({
+            x: locationX,
+            y: locationY
+        });
+        console.log(locationX, locationY);
     }
 
     goBack() {
@@ -56,11 +58,7 @@ export default class Test extends React.Component {
         return (
             <Container style={styles.container}>
                 <Image style={styles.images}
-                       onStartShouldSetResponder={() => true}
-                       onMoveShouldSetResponder={() => true}
-                       onResponderMove={this.onMove.bind(this)}
-                       onResponderRelease={this.onRelease.bind(this)}
-                       onResponderGrant={this.onPress.bind(this)}
+
                        source={require('../img/bg_ip6.png')}>
                     <View style={styles.view1}>
                         <View style={styles.header}>
@@ -75,6 +73,11 @@ export default class Test extends React.Component {
                         </View>
                         <View style={styles.main}>
                             <Animated.Image style={{width: 70, height: 50, marginLeft, marginTop}}
+                                            onStartShouldSetResponder={() => true}
+                                            onMoveShouldSetResponder={() => true}
+                                            onResponderMove={this.onMove.bind(this)}
+                                            onResponderRelease={this.onRelease.bind(this)}
+                                            onResponderGrant={this.onPress.bind(this)}
                                             source={require('../img/1/keo_do.png')}/>
                         </View>
                     </View>

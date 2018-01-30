@@ -45,13 +45,12 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         paddingLeft:30,
         paddingRight:30,
-        alignItems:'stretch',
 
     },
     mainItem: {
-        flex: 5,
+        flex: 3,
         width: '100%',
-        height: 100,
+        height: 120,
         // borderColor: '#E24816',
         // borderWidth: 3,
         margin: 10,
@@ -60,6 +59,12 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         // paddingBottom:20
+    },
+    dropZone:{
+        width: 70, height: 50
+    },
+    images_bi:{
+        width: 35, height: 35,
     },
 });
 export default styles;
