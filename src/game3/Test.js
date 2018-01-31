@@ -16,7 +16,8 @@ export default class Test extends Component{
         this.state = {
             showDraggable   : true,
             dropZoneValues  : null,
-            pan             : new Animated.ValueXY()
+            pan             : new Animated.ValueXY(),
+            opacity: new Animated.Value(1)
         };
 
         this.panResponder = PanResponder.create({
@@ -27,11 +28,17 @@ export default class Test extends Component{
             }]),
             onPanResponderRelease           : (e, gesture) => {
                 if(this.isDropZone(gesture)){
-                    this.setState({
-                        showDraggable: false
-
-                    });
-
+                    Animated.timing(this.state.opacity, {
+                        toValue: 0,
+                        duration: 500
+                    }).start(() =>
+                        this.setState({
+                            showDraggable: false
+                        })
+                    );
+                    setTimeout(() => {
+                        this.props.navigation.navigate("Home")
+                    }, 600)
                     }else{
                         Animated.spring(
                             this.state.pan,
@@ -105,7 +112,7 @@ export default class Test extends Component{
                     <Animated.Image
                         {...this.panResponder.panHandlers}
                         source={require('../img/3/bi_do.png')}
-                        style={[this.state.pan.getLayout(),styles.images_bi]}
+                        style={[this.state.pan.getLayout(),styles.images_bi,{opacity:this.state.opacity}]}
                     />
                 </View>
             );
