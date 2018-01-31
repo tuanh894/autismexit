@@ -6,8 +6,9 @@ import styles from './style';
 class Draggable1 extends Component {
     constructor(props) {
         super(props);
-
+        this.goBack = this.goBack.bind(this);
         this.state = {
+
             showDraggable: true,
             dropAreaValues: null,
             pan: new Animated.ValueXY(),
@@ -49,7 +50,9 @@ class Draggable1 extends Component {
     isDropArea(gesture) {
         return gesture.moveY < 200;
     }
-
+    goBack(){
+        this.props.navigation.navigate("Home")
+    }
     render() {
         return (
             <View style={{ width: "100%",marginTop:'20%', alignItems: "center"}}>
